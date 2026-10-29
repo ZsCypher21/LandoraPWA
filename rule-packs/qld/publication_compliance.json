@@ -1,0 +1,181 @@
+{
+  "id": "qld.publication_compliance",
+  "version": "0.1.0",
+  "jurisdiction": "QLD",
+  "domain": "publication_compliance",
+  "title": "Queensland listing publication gate: licensed agent and seller disclosure readiness",
+  "status": "draft",
+  "effectiveFrom": "2025-08-01",
+  "effectiveTo": null,
+  "disclaimer": "DRAFT for review by an authorised compliance or legal owner. This pack checks that the agent has confirmed disclosure documents are ready; it does not review their content and is not legal advice.",
+  "approval": null,
+  "facts": [
+    { "key": "listing.type", "type": "string", "values": ["sale", "rent", "off_the_plan"], "description": "Listing type from the canonical model" },
+    { "key": "property.state", "type": "string", "values": ["QLD", "NSW", "VIC", "SA", "WA", "TAS", "NT", "ACT"], "description": "State of the property" },
+    { "key": "agent.listing_rights", "type": "boolean", "description": "Every listing agent is licence-verified or has an approved exception (FR-AGT-001)" },
+    {
+      "key": "disclosure.exemption",
+      "type": "string",
+      "values": ["none", "land_act_leasehold", "proposed_lot", "s100_exempt_seller"],
+      "description": "Exemption from the seller disclosure regime claimed by the agent; any value other than none needs admin review"
+    },
+    { "key": "disclosure.form2_ready", "type": "boolean", "description": "Agent confirms the Form 2 seller disclosure statement is completed and ready to give to buyers" },
+    { "key": "disclosure.title_search_ready", "type": "boolean", "description": "Agent confirms the title search is ready" },
+    { "key": "property.community_titles_lot", "type": "boolean", "description": "Lot is in a community titles scheme (body corporate)" },
+    { "key": "disclosure.body_corporate_docs_ready", "type": "boolean", "description": "Body corporate certificate and community management statement are ready" },
+    { "key": "property.has_regulated_pool", "type": "boolean", "description": "Property has a regulated pool (shared or non-shared)" },
+    { "key": "disclosure.pool_certificate_ready", "type": "boolean", "description": "Pool safety certificate, or notice of no pool safety certificate, is ready" },
+    { "key": "property.on_environmental_register", "type": "boolean", "description": "Lot is on the Environmental Management Register or Contaminated Land Register" },
+    { "key": "disclosure.environmental_notice_ready", "type": "boolean", "description": "Environmental Protection Act s 408(2) notice (and any site management plan) is ready" },
+    { "key": "listing.has_inspection_or_appointment", "type": "boolean", "description": "Listing has at least one open-home time or says inspection is by appointment" }
+  ],
+  "rules": [
+    {
+      "id": "QLD-AGT-001",
+      "title": "Listing agent is licence-verified",
+      "test": { "fact": "agent.listing_rights", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "A listing agent on this property has not passed licence verification. Finish verification in Settings → Licence, or ask Landora support to review an exception.",
+      "sources": [
+        { "title": "Landora V11 §4 Compliance gate; FR-AGT-001", "document": "Landora Concept, Product & Delivery Document V11", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [],
+      "platformPolicy": true
+    },
+    {
+      "id": "QLD-SD-001",
+      "title": "Form 2 seller disclosure statement ready",
+      "appliesWhen": {
+        "all": [
+          { "fact": "property.state", "op": "eq", "value": "QLD" },
+          { "fact": "listing.type", "op": "in", "value": ["sale", "off_the_plan"] },
+          { "fact": "disclosure.exemption", "op": "eq", "value": "none" }
+        ]
+      },
+      "test": { "fact": "disclosure.form2_ready", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "Confirm the Form 2 seller disclosure statement is completed and ready to give buyers. The law requires it before the buyer signs the contract; Landora asks for it before publishing so the listing can show as disclosure-ready.",
+      "sources": [
+        { "title": "QLS Proctor: FAQs for seller disclosure forms", "url": "https://www.qlsproctor.com.au/2025/07/faqs-for-seller-disclosure-forms/", "retrievedOn": "2026-10-28" },
+        { "title": "Property Law Act 2023 (Qld) Ch 7 Pt 2; Property Law Regulation 2024 s 8", "url": "https://www.legislation.qld.gov.au/", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": ["Readiness is the agent's confirmation; Landora does not review the statement's content."],
+      "platformPolicy": true
+    },
+    {
+      "id": "QLD-SD-002",
+      "title": "Title search ready",
+      "appliesWhen": {
+        "all": [
+          { "fact": "property.state", "op": "eq", "value": "QLD" },
+          { "fact": "listing.type", "op": "in", "value": ["sale", "off_the_plan"] },
+          { "fact": "disclosure.exemption", "op": "eq", "value": "none" }
+        ]
+      },
+      "test": { "fact": "disclosure.title_search_ready", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "Confirm the title search is ready to give buyers with the Form 2.",
+      "sources": [
+        { "title": "QLS Proctor: FAQs for seller disclosure forms (prescribed certificates, Regulation s 5)", "url": "https://www.qlsproctor.com.au/2025/07/faqs-for-seller-disclosure-forms/", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": ["The full prescribed-certificate list in Property Law Regulation 2024 s 5 must be checked by the compliance owner."],
+      "platformPolicy": false
+    },
+    {
+      "id": "QLD-SD-003",
+      "title": "Body corporate certificate and community management statement ready",
+      "appliesWhen": {
+        "all": [
+          { "fact": "property.state", "op": "eq", "value": "QLD" },
+          { "fact": "listing.type", "op": "in", "value": ["sale", "off_the_plan"] },
+          { "fact": "disclosure.exemption", "op": "eq", "value": "none" },
+          { "fact": "property.community_titles_lot", "op": "is_true" }
+        ]
+      },
+      "test": { "fact": "disclosure.body_corporate_docs_ready", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "This lot is in a community titles scheme. Confirm the body corporate certificate and community management statement are ready.",
+      "sources": [
+        { "title": "QLS Proctor: FAQs for seller disclosure forms", "url": "https://www.qlsproctor.com.au/2025/07/faqs-for-seller-disclosure-forms/", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [],
+      "platformPolicy": false
+    },
+    {
+      "id": "QLD-SD-004",
+      "title": "Pool safety certificate or notice of no certificate ready",
+      "appliesWhen": {
+        "all": [
+          { "fact": "property.state", "op": "eq", "value": "QLD" },
+          { "fact": "listing.type", "op": "in", "value": ["sale", "off_the_plan"] },
+          { "fact": "disclosure.exemption", "op": "eq", "value": "none" },
+          { "fact": "property.has_regulated_pool", "op": "is_true" }
+        ]
+      },
+      "test": { "fact": "disclosure.pool_certificate_ready", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "This property has a regulated pool. Confirm a pool safety certificate, or a notice of no pool safety certificate, is ready. Without it before contract, the buyer may be able to terminate.",
+      "sources": [
+        { "title": "QLS Proctor: FAQs for seller disclosure forms (PLA s 104(2))", "url": "https://www.qlsproctor.com.au/2025/07/faqs-for-seller-disclosure-forms/", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [],
+      "platformPolicy": false
+    },
+    {
+      "id": "QLD-SD-005",
+      "title": "Environmental register notice ready",
+      "appliesWhen": {
+        "all": [
+          { "fact": "property.state", "op": "eq", "value": "QLD" },
+          { "fact": "listing.type", "op": "in", "value": ["sale", "off_the_plan"] },
+          { "fact": "disclosure.exemption", "op": "eq", "value": "none" },
+          { "fact": "property.on_environmental_register", "op": "is_true" }
+        ]
+      },
+      "test": { "fact": "disclosure.environmental_notice_ready", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "This lot is on an environmental register. Confirm the Environmental Protection Act s 408(2) notice and any site management plan are ready.",
+      "sources": [
+        { "title": "QLS Proctor: FAQs for seller disclosure forms (EP Act s 408, PLA s 104(4))", "url": "https://www.qlsproctor.com.au/2025/07/faqs-for-seller-disclosure-forms/", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [],
+      "platformPolicy": false
+    },
+    {
+      "id": "QLD-SD-006",
+      "title": "No unreviewed disclosure exemption",
+      "appliesWhen": {
+        "all": [
+          { "fact": "property.state", "op": "eq", "value": "QLD" },
+          { "fact": "listing.type", "op": "in", "value": ["sale", "off_the_plan"] }
+        ]
+      },
+      "test": { "fact": "disclosure.exemption", "op": "eq", "value": "none" },
+      "severity": "advisory",
+      "failureReason": "An exemption from seller disclosure was claimed. Landora will review it; the listing shows without the disclosure-ready badge until confirmed.",
+      "sources": [
+        { "title": "QLS Proctor: FAQs for seller disclosure forms (exemptions)", "url": "https://www.qlsproctor.com.au/2025/07/faqs-for-seller-disclosure-forms/", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [],
+      "platformPolicy": true
+    },
+    {
+      "id": "QLD-UX-001",
+      "title": "Inspection times or appointment option provided",
+      "test": { "fact": "listing.has_inspection_or_appointment", "op": "is_true" },
+      "severity": "advisory",
+      "failureReason": "Add open-home times or mark inspections as by appointment, so buyers can add this home to their inspection timeline.",
+      "sources": [
+        { "title": "Landora V11 FR-INSP-001", "document": "Landora Concept, Product & Delivery Document V11", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [],
+      "platformPolicy": true
+    }
+  ],
+  "openQuestions": [
+    "Decided 2026-10-28 (project lead, pending client confirmation): keep the V11 gate. Publication waits for Form 2 readiness even though the law only requires it before contract.",
+    "Does the regime apply to sales by auction in the same way? The source used does not say. Compliance owner to confirm.",
+    "Full prescribed-certificate list (Property Law Regulation 2024 s 5) to be confirmed by the compliance owner.",
+    "Source URLs for legislation point to the legislation home page; the compliance owner should replace them with exact section links."
+  ]
+}

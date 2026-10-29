@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC SAMPLE. Fictional agency, agents, addresses and prices (V11 §14.4). Not real listings. -->
+<propertyList date="2026-10-20-09:00:00" username="synthetic" password="">
+  <residential modTime="2026-10-20-08:30:00" status="current">
+    <agentID>SYN-AG-001</agentID>
+    <uniqueID>SYN-R-1001</uniqueID>
+    <listingAgent id="1">
+      <name>Alex Example</name>
+      <telephone type="BH">0700 000 001</telephone>
+      <email>Alex.Example@synthetic-realty.example</email>
+    </listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">650000</price>
+    <priceView>Offers over $650,000</priceView>
+    <address display="yes">
+      <subNumber/>
+      <streetNumber>12</streetNumber>
+      <street>Placeholder Parade</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Renovator with a big backyard</headline>
+    <description>Solid 1980s brick home on a flat block.&lt;br/&gt;Ready for your ideas.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>1</garages>
+      <carports>1</carports>
+      <openSpaces>0</openSpaces>
+      <pool>0</pool>
+      <airConditioning>1</airConditioning>
+      <shed>yes</shed>
+      <otherFeatures>Fully fenced, Side access</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">702</area></landDetails>
+    <buildingDetails><area unit="squareMeter">140</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>25-Oct-2026 10:00am to 10:30am</inspection>
+      <inspection>1-Nov-2026 9:30am to 10:00am</inspection>
+      <inspection>sometime next week</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="b" modTime="2026-10-20-08:00:00" url="https://media.synthetic.example/SYN-R-1001/b.jpg" format="jpg"/>
+      <img id="m" modTime="2026-10-20-08:00:00" url="https://media.synthetic.example/SYN-R-1001/m.jpg" format="jpg"/>
+      <img id="a" modTime="2026-10-20-08:00:00" url="https://media.synthetic.example/SYN-R-1001/a.jpg" format="jpg"/>
+      <floorplan id="1" modTime="2026-10-20-08:00:00" url="https://media.synthetic.example/SYN-R-1001/fp1.png" format="png"/>
+    </objects>
+  </residential>
+
+  <residential modTime="2026-10-20T08:45:00+10:00" status="current">
+    <agentID>SYN-AG-001</agentID>
+    <uniqueID>SYN-R-1002</uniqueID>
+    <listingAgent id="1">
+      <name>Sam Placeholder</name>
+      <email>sam.placeholder@synthetic-realty.example</email>
+    </listingAgent>
+    <underOffer value="yes"/>
+    <price display="no">720000</price>
+    <priceView>$700,000 - $740,000</priceView>
+    <address display="no">
+      <subNumber>4</subNumber>
+      <streetNumber>88</streetNumber>
+      <street>Sample Street</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>qld</state>
+      <postcode>4558</postcode>
+    </address>
+    <category name="Unit"/>
+    <headline>Walk to the beach</headline>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <poolInGround>yes</poolInGround>
+      <balcony>1</balcony>
+    </features>
+    <auction date="2026-11-14-11:00"/>
+  </residential>
+
+  <rental modTime="2026-10-19-15:00:00" status="current">
+    <agentID>SYN-AG-001</agentID>
+    <uniqueID>SYN-L-2001</uniqueID>
+    <listingAgent id="1"><name>Alex Example</name><email>alex.example@synthetic-realty.example</email></listingAgent>
+    <rent period="month" display="yes">2600</rent>
+    <bond>2400</bond>
+    <dateAvailable>2026-11-10</dateAvailable>
+    <address display="yes">
+      <streetNumber>3</streetNumber>
+      <street>Fictional Lane</street>
+      <suburb>Mooloolaba</suburb>
+      <state>QLD</state>
+      <postcode>4557</postcode>
+    </address>
+    <category name="Townhouse"/>
+    <headline>Low-maintenance townhouse</headline>
+    <features><bedrooms>3</bedrooms><bathrooms>2</bathrooms><garages>2</garages></features>
+  </rental>
+
+  <commercial modTime="2026-10-19-15:00:00" status="current">
+    <agentID>SYN-AG-001</agentID>
+    <uniqueID>SYN-C-3001</uniqueID>
+  </commercial>
+</propertyList>

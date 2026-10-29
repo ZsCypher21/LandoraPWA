@@ -1,0 +1,90 @@
+[
+  {
+    "name": "couple buying a new $650k townhouse on the Sunshine Coast with 5% deposit",
+    "asOf": "2026-10-28",
+    "facts": {
+      "purchase.home_kind": "new",
+      "purchase.value_aud": 650000,
+      "purchase.hgs_price_cap_region": "qld_capital_or_regional_centre",
+      "applicants.all_18_plus": true,
+      "applicants.any_citizen_or_pr": true,
+      "applicants.all_citizen_or_pr": true,
+      "applicants.received_fhog_before": false,
+      "applicants.owned_disqualifying_property_fhog": false,
+      "applicants.owned_property_last_10_years": false,
+      "applicants.first_home_buyer_for_duty": true,
+      "applicants.will_live_in_home": true,
+      "finance.deposit_percent": 5
+    },
+    "expectRules": { "QLD-FHOG-30K": "pass", "QLD-DUTY-NEW": "pass", "QLD-DUTY-EST": "fail", "QLD-DUTY-LAND": "fail", "AU-HGS-FHG": "pass" },
+    "expectBenefits": { "QLD-FHOG-30K": 30000 }
+  },
+  {
+    "name": "established $735k home in Moreton Bay region gets banded duty concession; FHG cap depends on region",
+    "asOf": "2026-10-28",
+    "facts": {
+      "purchase.home_kind": "established",
+      "purchase.value_aud": 735000,
+      "purchase.hgs_price_cap_region": "qld_rest_of_state",
+      "applicants.all_18_plus": true,
+      "applicants.any_citizen_or_pr": true,
+      "applicants.all_citizen_or_pr": true,
+      "applicants.received_fhog_before": false,
+      "applicants.owned_disqualifying_property_fhog": false,
+      "applicants.owned_property_last_10_years": false,
+      "applicants.first_home_buyer_for_duty": true,
+      "applicants.will_live_in_home": true,
+      "finance.deposit_percent": 10
+    },
+    "expectRules": { "QLD-FHOG-30K": "fail", "QLD-DUTY-EST": "pass", "AU-HGS-FHG": "fail" },
+    "expectBenefits": { "QLD-DUTY-EST": 12145 }
+  },
+  {
+    "name": "new home at exactly $750k is not eligible for the grant (must be less than)",
+    "asOf": "2026-10-28",
+    "facts": {
+      "purchase.home_kind": "new",
+      "purchase.value_aud": 750000,
+      "applicants.all_18_plus": true,
+      "applicants.any_citizen_or_pr": true,
+      "applicants.received_fhog_before": false,
+      "applicants.owned_disqualifying_property_fhog": false,
+      "applicants.will_live_in_home": true
+    },
+    "expectRules": { "QLD-FHOG-30K": "fail" }
+  },
+  {
+    "name": "missing answers give unknown, never a guess",
+    "asOf": "2026-10-28",
+    "facts": { "purchase.home_kind": "new", "purchase.value_aud": 600000 },
+    "expectRules": { "QLD-FHOG-30K": "unknown", "AU-HGS-FHG": "unknown" },
+    "expectMissing": {
+      "QLD-FHOG-30K": [
+        "applicants.all_18_plus",
+        "applicants.any_citizen_or_pr",
+        "applicants.owned_disqualifying_property_fhog",
+        "applicants.received_fhog_before",
+        "applicants.will_live_in_home"
+      ]
+    }
+  },
+  {
+    "name": "investor (not living in home) is not eligible for anything",
+    "asOf": "2026-10-28",
+    "facts": {
+      "purchase.home_kind": "established",
+      "purchase.value_aud": 600000,
+      "purchase.hgs_price_cap_region": "qld_capital_or_regional_centre",
+      "applicants.all_18_plus": true,
+      "applicants.any_citizen_or_pr": true,
+      "applicants.all_citizen_or_pr": true,
+      "applicants.received_fhog_before": false,
+      "applicants.owned_disqualifying_property_fhog": false,
+      "applicants.owned_property_last_10_years": false,
+      "applicants.first_home_buyer_for_duty": true,
+      "applicants.will_live_in_home": false,
+      "finance.deposit_percent": 20
+    },
+    "expectRules": { "QLD-FHOG-30K": "fail", "QLD-DUTY-EST": "fail", "AU-HGS-FHG": "fail" }
+  }
+]

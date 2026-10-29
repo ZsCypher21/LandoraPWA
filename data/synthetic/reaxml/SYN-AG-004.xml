@@ -1,0 +1,2989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC DATA. Every agency, agent, street address, price, sale history and valuation here is fictional and generated for design and testing (Landora V11 §14.4). Never present it as real. -->
+<propertyList date="2026-10-28-06:00:00" username="synthetic" password="">
+  <residential modTime="2026-10-11-13:32:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-P-0003</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">420000</price>
+    <priceView>$420,000 - $460,000</priceView>
+    <address display="yes">
+      <subNumber>15</subNumber>
+      <streetNumber>145</streetNumber>
+      <street>Testing Street</street>
+      <suburb display="yes">Caloundra</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Apartment"/>
+    <headline>Off the plan in Caloundra: 1-bed apartment</headline>
+    <description>Fictional 1-bedroom, 1-bathroom apartment in Caloundra with 0 car spaces. Includes air conditioning, deck, dishwasher, remote garage, shed, study, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>air_conditioning, deck, dishwasher, remote_garage, shed, study, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">60</area></buildingDetails>
+    <newConstruction>yes</newConstruction>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:30am to 9:45am</inspection>
+      <inspection>7-Nov-2026 11:00am to 11:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-P-0003/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-P-0003/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-P-0003/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-P-0003/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-P-0003/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-P-0003/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-P-0003/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-P-0003/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-P-0003/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-P-0003/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-P-0003/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-22-13:59:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-P-0007</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">750000</price>
+    <priceView>Offers over $750,000</priceView>
+    <address display="yes">
+      <subNumber>3</subNumber>
+      <streetNumber>58</streetNumber>
+      <street>Fiction Parade</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Apartment"/>
+    <headline>Off the plan in Maroochydore: 2-bed apartment</headline>
+    <description>Fictional 2-bedroom, 2-bathroom apartment in Maroochydore with 1 car space. Includes deck, remote garage, side access. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>deck, remote_garage, side_access</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">105</area></buildingDetails>
+    <newConstruction>yes</newConstruction>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-P-0007/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-P-0007/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-P-0007/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-P-0007/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-P-0007/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-P-0007/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-P-0007/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-P-0007/g.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-24-10:48:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-P-0008</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">580000</price>
+    <priceView>$580,000 - $620,000</priceView>
+    <address display="yes">
+      <subNumber>3</subNumber>
+      <streetNumber>159</streetNumber>
+      <street>Stub Close</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Apartment"/>
+    <headline>New apartments releasing now in Coolum Beach</headline>
+    <description>Fictional 1-bedroom, 1-bathroom apartment in Coolum Beach with 1 car space. Includes air conditioning, fully fenced, shed, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>air_conditioning, fully_fenced, shed, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">65</area></buildingDetails>
+    <newConstruction>yes</newConstruction>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:30am to 11:00am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-P-0008/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-P-0008/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-P-0008/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-P-0008/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-P-0008/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-P-0008/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-P-0008/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-05-14:29:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0038</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">775000</price>
+    <priceView>$775,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>162</streetNumber>
+      <street>Sandbox Lane</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>4-bedroom townhouse close to the beach</headline>
+    <description>Fictional 4-bedroom, 2-bathroom townhouse in Maroochydore with 2 car spaces. Includes outdoor ent. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>outdoor_ent</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">170</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:45am to 11:15am</inspection>
+      <inspection>7-Nov-2026 9:30am to 10:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0038/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0038/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0038/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0038/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0038/d.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-06-16:05:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0039</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">480000</price>
+    <priceView>Offers over $480,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 50</streetNumber>
+      <street>Dummy Crescent</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Build your first home here</headline>
+    <description>Fictional 675 m² block in Buderim. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">675</area></landDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:15am to 11:00am</inspection>
+      <inspection>7-Nov-2026 12:00pm to 12:30pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0039/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-V-0039/a.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-10-12-09:04:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0054</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">900000</price>
+    <priceView>$900,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>16</streetNumber>
+      <street>Example Place</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 2-bedroom, 1-bathroom house in Little Mountain with 2 car spaces. Includes built in robes. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>built_in_robes</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">720</area></landDetails>
+    <buildingDetails><area unit="squareMeter">95</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:15pm to 12:30pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0054/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0054/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0054/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0054/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0054/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0054/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0054/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0054/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0054/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0054/i.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-11-15:40:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0057</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1140000</price>
+    <priceView>$1,140,000 - $1,180,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>50</streetNumber>
+      <street>Mockingbird Avenue</street>
+      <suburb display="yes">Birtinya</suburb>
+      <state>QLD</state>
+      <postcode>4575</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Birtinya with 1 car space. Includes air conditioning, dishwasher, pool, secure parking. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>1</garages>
+      <pool>1</pool>
+      <otherFeatures>air_conditioning, dishwasher, secure_parking</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">610</area></landDetails>
+    <buildingDetails><area unit="squareMeter">160</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:15am to 11:00am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0057/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0057/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0057/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0057/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0057/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0057/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0057/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0057/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0057/h.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-21-12:30:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0073</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1130000</price>
+    <priceView>$1,130,000 - $1,170,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>189</streetNumber>
+      <street>Variable Terrace</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 5-bedroom, 1-bathroom house in Little Mountain with 2 car spaces. Includes deck, dishwasher, side access, solar panels, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>5</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>deck, dishwasher, side_access, solar_panels, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">555</area></landDetails>
+    <buildingDetails><area unit="squareMeter">215</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0073/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0073/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0073/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0073/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0073/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0073/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0073/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0073/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0073/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0073/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0073/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-R-0073/k.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-01-13:16:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0077</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">840000</price>
+    <priceView>$840,000 - $880,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>202</streetNumber>
+      <street>Placeholder Crescent</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Palmview with 2 car spaces. Includes air conditioning, built in robes, deck, shed, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>air_conditioning, built_in_robes, deck, shed, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">475</area></landDetails>
+    <buildingDetails><area unit="squareMeter">155</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0077/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0077/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0077/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0077/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0077/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0077/e.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-08-14:30:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0078</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">840000</price>
+    <priceView>$840,000 - $880,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>27</streetNumber>
+      <street>Ipsum Court</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 2-bedroom, 2-bathroom house in Little Mountain with 2 car spaces. Includes built in robes, solar panels, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>built_in_robes, solar_panels, study</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">565</area></landDetails>
+    <buildingDetails><area unit="squareMeter">115</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0078/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0078/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0078/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0078/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0078/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0078/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0078/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0078/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0078/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0078/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0078/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-08-10:53:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0079</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">415000</price>
+    <priceView>Auction</priceView>
+    <address display="yes">
+      <subNumber>11</subNumber>
+      <streetNumber>96</streetNumber>
+      <street>Lorem Place</street>
+      <suburb display="yes">Nambour</suburb>
+      <state>QLD</state>
+      <postcode>4560</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Family unit on a quiet street</headline>
+    <description>Fictional 2-bedroom, 2-bathroom unit in Nambour with 1 car space. Includes dishwasher. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>dishwasher</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">95</area></buildingDetails>
+    <auction date="2026-11-28-10:30"/>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:30pm to 1:15pm</inspection>
+      <inspection>7-Nov-2026 11:30am to 11:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0079/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0079/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0079/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0079/c.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-17-09:56:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0087</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">495000</price>
+    <priceView>Contact agent</priceView>
+    <address display="yes">
+      <subNumber>35</subNumber>
+      <streetNumber>22</streetNumber>
+      <street>Dummy Terrace</street>
+      <suburb display="yes">Sippy Downs</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Low-maintenance unit near shops and transport</headline>
+    <description>Fictional 2-bedroom, 1-bathroom unit in Sippy Downs with 0 car spaces. Includes built in robes, deck, fully fenced, remote garage, solar panels, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>built_in_robes, deck, fully_fenced, remote_garage, solar_panels, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">95</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0087/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0087/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0087/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0087/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0087/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0087/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0087/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0087/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0087/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0087/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0087/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-R-0087/k.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-11-15:43:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0093</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">635000</price>
+    <priceView>$635,000</priceView>
+    <address display="yes">
+      <subNumber>34</subNumber>
+      <streetNumber>114</streetNumber>
+      <street>Variable Place</street>
+      <suburb display="yes">Birtinya</suburb>
+      <state>QLD</state>
+      <postcode>4575</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Family unit on a quiet street</headline>
+    <description>Fictional 2-bedroom, 1-bathroom unit in Birtinya with 2 car spaces. Includes balcony, outdoor ent, shed. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>balcony, outdoor_ent, shed</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">90</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:45am to 12:15pm</inspection>
+      <inspection>7-Nov-2026 10:45am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0093/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0093/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0093/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0093/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0093/d.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-23-14:16:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0099</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">585000</price>
+    <priceView>Offers over $585,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 13</streetNumber>
+      <street>Pixel Drive</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Level block ready to build</headline>
+    <description>Fictional 365 m² block in Maroochydore. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">365</area></landDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:45am to 10:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0099/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-V-0099/a.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-09-29-09:07:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0104</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">690000</price>
+    <priceView>Offers over $690,000</priceView>
+    <address display="yes">
+      <subNumber>23</subNumber>
+      <streetNumber>135</streetNumber>
+      <street>Draft Street</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>First-home-friendly townhouse in Maroochydore</headline>
+    <description>Fictional 2-bedroom, 2-bathroom townhouse in Maroochydore with 1 car space. Includes built in robes, remote garage, secure parking, shed, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>built_in_robes, remote_garage, secure_parking, shed, study</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">115</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:45am to 10:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0104/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0104/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0104/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0104/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0104/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0104/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0104/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0104/g.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-19-08:02:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0105</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">410000</price>
+    <priceView>$410,000 - $450,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 84</streetNumber>
+      <street>Mockingbird Close</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Corner block close to schools</headline>
+    <description>Fictional 435 m² block in Palmview. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">435</area></landDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:45am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0105/m.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-10-13-16:23:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0109</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">950000</price>
+    <priceView>Offers over $950,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>169</streetNumber>
+      <street>Prototype Crescent</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Renovator's opportunity in Buderim</headline>
+    <description>Fictional 2-bedroom, 1-bathroom house in Buderim with 3 car spaces. Includes balcony, built in robes, fully fenced, outdoor ent, pool, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>3</garages>
+      <pool>1</pool>
+      <otherFeatures>balcony, built_in_robes, fully_fenced, outdoor_ent, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">880</area></landDetails>
+    <buildingDetails><area unit="squareMeter">90</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:00am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0109/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0109/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0109/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0109/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0109/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0109/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0109/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0109/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0109/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0109/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0109/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-R-0109/k.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-15-16:14:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0112</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1305000</price>
+    <priceView>Offers over $1,305,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>238</streetNumber>
+      <street>Sample Close</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 2-bedroom, 2-bathroom house in Coolum Beach with 1 car space. Includes outdoor ent, remote garage, solar panels. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>outdoor_ent, remote_garage, solar_panels</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">775</area></landDetails>
+    <buildingDetails><area unit="squareMeter">95</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:30am to 10:00am</inspection>
+      <inspection>7-Nov-2026 11:30am to 11:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0112/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0112/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0112/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0112/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0112/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0112/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0112/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-05-16:33:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0113</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">850000</price>
+    <priceView>Offers over $850,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>167</streetNumber>
+      <street>Placeholder Close</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>3-bedroom house close to the beach</headline>
+    <description>Fictional 3-bedroom, 3-bathroom house in Palmview with 3 car spaces. Includes built in robes, deck. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>built_in_robes, deck</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">945</area></landDetails>
+    <buildingDetails><area unit="squareMeter">150</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:15am to 10:00am</inspection>
+      <inspection>7-Nov-2026 11:45am to 12:15pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0113/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0113/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0113/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0113/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0113/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0113/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0113/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0113/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0113/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0113/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0113/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-15-12:17:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0122</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">515000</price>
+    <priceView>Offers over $515,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 57</streetNumber>
+      <street>Prototype Drive</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Level block ready to build</headline>
+    <description>Fictional 775 m² block in Maroochydore. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">775</area></landDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:45am to 12:00pm</inspection>
+      <inspection>7-Nov-2026 10:00am to 10:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0122/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-V-0122/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-V-0122/b.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-10-16-08:01:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0141</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">680000</price>
+    <priceView>Offers over $680,000</priceView>
+    <address display="yes">
+      <subNumber>9</subNumber>
+      <streetNumber>88</streetNumber>
+      <street>Dummy Court</street>
+      <suburb display="yes">Nambour</suburb>
+      <state>QLD</state>
+      <postcode>4560</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>4-bedroom townhouse close to the beach</headline>
+    <description>Fictional 4-bedroom, 1-bathroom townhouse in Nambour with 2 car spaces. Includes remote garage, secure parking, shed, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>remote_garage, secure_parking, shed, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">150</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:30am to 11:00am</inspection>
+      <inspection>7-Nov-2026 12:00pm to 12:30pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0141/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0141/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0141/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0141/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0141/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0141/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0141/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0141/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0141/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0141/i.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-15-17:14:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0144</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="yes"/>
+    <price display="yes">1110000</price>
+    <priceView>Offers over $1,110,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>58</streetNumber>
+      <street>Wireframe Street</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 2-bedroom, 2-bathroom house in Buderim with 3 car spaces. Includes fully fenced, secure parking, side access. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>fully_fenced, secure_parking, side_access</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">865</area></landDetails>
+    <buildingDetails><area unit="squareMeter">90</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:30am to 12:00pm</inspection>
+      <inspection>7-Nov-2026 10:45am to 11:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0144/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0144/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0144/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0144/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0144/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0144/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0144/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0144/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0144/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0144/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0144/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-01-16:45:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0146</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">740000</price>
+    <priceView>Contact agent</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>108</streetNumber>
+      <street>Pixel Parade</street>
+      <suburb display="yes">Sippy Downs</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>Light-filled townhouse with room to grow</headline>
+    <description>Fictional 5-bedroom, 2-bathroom townhouse in Sippy Downs with 2 car spaces. Includes balcony, deck, outdoor ent, remote garage, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>5</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>balcony, deck, outdoor_ent, remote_garage, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">260</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:15am to 11:30am</inspection>
+      <inspection>7-Nov-2026 9:00am to 9:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0146/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0146/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0146/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0146/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0146/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0146/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0146/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0146/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0146/h.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-21-09:47:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0152</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">785000</price>
+    <priceView>$785,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>44</streetNumber>
+      <street>Sample Crescent</street>
+      <suburb display="yes">Nambour</suburb>
+      <state>QLD</state>
+      <postcode>4560</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Renovator's opportunity in Nambour</headline>
+    <description>Fictional 5-bedroom, 1-bathroom house in Nambour with 2 car spaces. Includes air conditioning, fully fenced, secure parking, shed. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>5</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>air_conditioning, fully_fenced, secure_parking, shed</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">875</area></landDetails>
+    <buildingDetails><area unit="squareMeter">195</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:15am to 9:30am</inspection>
+      <inspection>7-Nov-2026 9:30am to 9:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0152/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0152/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0152/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0152/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0152/d.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-07-13:39:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0162</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">375000</price>
+    <priceView>Contact agent</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 72</streetNumber>
+      <street>Ipsum Place</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Corner block close to schools</headline>
+    <description>Fictional 660 m² block in Palmview. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">660</area></landDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:00am to 10:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0162/m.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-10-01-14:28:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0165</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">830000</price>
+    <priceView>$830,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>38</streetNumber>
+      <street>Fiction Street</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Palmview with 3 car spaces. Includes built in robes, dishwasher, fully fenced, pool, secure parking, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>3</garages>
+      <pool>1</pool>
+      <otherFeatures>built_in_robes, dishwasher, fully_fenced, secure_parking, study</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">495</area></landDetails>
+    <buildingDetails><area unit="squareMeter">170</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:30am to 11:00am</inspection>
+      <inspection>7-Nov-2026 10:00am to 10:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0165/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0165/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0165/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0165/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0165/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0165/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0165/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-24-16:48:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0166</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1065000</price>
+    <priceView>Offers over $1,065,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>56</streetNumber>
+      <street>Variable Court</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 2-bedroom, 2-bathroom house in Coolum Beach with 3 car spaces. Includes deck, remote garage, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>deck, remote_garage, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">610</area></landDetails>
+    <buildingDetails><area unit="squareMeter">85</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:00pm to 12:30pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0166/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0166/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0166/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0166/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0166/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0166/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0166/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0166/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0166/h.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-13-14:04:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0170</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">935000</price>
+    <priceView>$935,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>228</streetNumber>
+      <street>Fixture Terrace</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 2-bedroom, 2-bathroom house in Coolum Beach with 3 car spaces. Includes air conditioning, remote garage. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>air_conditioning, remote_garage</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">825</area></landDetails>
+    <buildingDetails><area unit="squareMeter">100</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:45am to 10:00am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0170/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0170/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0170/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0170/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0170/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0170/e.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-09-08:55:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0178</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">380000</price>
+    <priceView>$380,000 - $420,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 82</streetNumber>
+      <street>Fixture Crescent</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Corner block close to schools</headline>
+    <description>Fictional 560 m² block in Little Mountain. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">560</area></landDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:30pm to 12:45pm</inspection>
+      <inspection>7-Nov-2026 11:15am to 12:00pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0178/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-V-0178/a.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-10-28-16:54:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0179</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">890000</price>
+    <priceView>$890,000 - $930,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>15</streetNumber>
+      <street>Testing Place</street>
+      <suburb display="yes">Sippy Downs</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 3-bedroom, 3-bathroom house in Sippy Downs with 3 car spaces. Includes remote garage, side access. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>remote_garage, side_access</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">600</area></landDetails>
+    <buildingDetails><area unit="squareMeter">160</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:15am to 11:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0179/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0179/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0179/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0179/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0179/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0179/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0179/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-11-16:37:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0182</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">810000</price>
+    <priceView>Auction</priceView>
+    <address display="yes">
+      <subNumber>15</subNumber>
+      <streetNumber>179</streetNumber>
+      <street>Sample Parade</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Light-filled unit with room to grow</headline>
+    <description>Fictional 3-bedroom, 3-bathroom unit in Coolum Beach with 2 car spaces. Includes fully fenced. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>fully_fenced</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">145</area></buildingDetails>
+    <auction date="2026-11-28-10:00"/>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:45am to 11:00am</inspection>
+      <inspection>7-Nov-2026 9:00am to 9:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0182/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0182/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0182/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0182/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0182/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0182/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0182/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-17-17:10:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0183</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1005000</price>
+    <priceView>Offers over $1,005,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>8</streetNumber>
+      <street>Sandbox Close</street>
+      <suburb display="yes">Sippy Downs</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Sippy Downs with 3 car spaces. Includes fully fenced, outdoor ent, shed, side access. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>fully_fenced, outdoor_ent, shed, side_access</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">610</area></landDetails>
+    <buildingDetails><area unit="squareMeter">205</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:15am to 11:45am</inspection>
+      <inspection>7-Nov-2026 9:30am to 9:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0183/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0183/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0183/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0183/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0183/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0183/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0183/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0183/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0183/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0183/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0183/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-R-0183/k.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-09-16:41:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0184</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">395000</price>
+    <priceView>Offers over $395,000</priceView>
+    <address display="yes">
+      <subNumber>15</subNumber>
+      <streetNumber>164</streetNumber>
+      <street>Mockingbird Drive</street>
+      <suburb display="yes">Nambour</suburb>
+      <state>QLD</state>
+      <postcode>4560</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>First-home-friendly unit in Nambour</headline>
+    <description>Fictional 2-bedroom, 2-bathroom unit in Nambour with 1 car space. Includes deck, secure parking, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>deck, secure_parking, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">110</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:15am to 9:45am</inspection>
+      <inspection>7-Nov-2026 9:15am to 9:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0184/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0184/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0184/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0184/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0184/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0184/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0184/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0184/g.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-15-10:23:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0185</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">455000</price>
+    <priceView>Auction</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 107</streetNumber>
+      <street>Synthetic Drive</street>
+      <suburb display="yes">Birtinya</suburb>
+      <state>QLD</state>
+      <postcode>4575</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Corner block close to schools</headline>
+    <description>Fictional 495 m² block in Birtinya. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">495</area></landDetails>
+    <auction date="2026-11-28-10:30"/>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:30pm to 1:15pm</inspection>
+      <inspection>7-Nov-2026 11:45am to 12:00pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0185/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-V-0185/a.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-10-01-14:05:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0194</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1395000</price>
+    <priceView>Offers over $1,395,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>30</streetNumber>
+      <street>Variable Crescent</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Renovator's opportunity in Coolum Beach</headline>
+    <description>Fictional 3-bedroom, 3-bathroom house in Coolum Beach with 3 car spaces. Includes built in robes, outdoor ent, secure parking, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>built_in_robes, outdoor_ent, secure_parking, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">490</area></landDetails>
+    <buildingDetails><area unit="squareMeter">130</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:00am to 11:30am</inspection>
+      <inspection>7-Nov-2026 10:45am to 11:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0194/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0194/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0194/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0194/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0194/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0194/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0194/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0194/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0194/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0194/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0194/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-20-13:00:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0219</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">940000</price>
+    <priceView>$940,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>3</streetNumber>
+      <street>Placeholder Drive</street>
+      <suburb display="yes">Caloundra</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Caloundra with 2 car spaces. Includes secure parking, shed. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>secure_parking, shed</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">755</area></landDetails>
+    <buildingDetails><area unit="squareMeter">200</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:00am to 11:30am</inspection>
+      <inspection>7-Nov-2026 10:30am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0219/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0219/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0219/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0219/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0219/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0219/e.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-27-11:32:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0221</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">520000</price>
+    <priceView>$520,000 - $560,000</priceView>
+    <address display="yes">
+      <subNumber>16</subNumber>
+      <streetNumber>47</streetNumber>
+      <street>Variable Place</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>2-bedroom unit close to the beach</headline>
+    <description>Fictional 2-bedroom, 2-bathroom unit in Palmview with 2 car spaces. Includes balcony. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>balcony</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">100</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:15am to 9:45am</inspection>
+      <inspection>7-Nov-2026 10:45am to 11:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0221/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0221/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0221/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0221/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0221/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0221/e.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-24-12:37:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0222</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">805000</price>
+    <priceView>Offers over $805,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>95</streetNumber>
+      <street>Dummy Drive</street>
+      <suburb display="yes">Sippy Downs</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 3-bedroom, 2-bathroom house in Sippy Downs with 2 car spaces. Includes study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>study</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">700</area></landDetails>
+    <buildingDetails><area unit="squareMeter">160</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:45am to 10:30am</inspection>
+      <inspection>7-Nov-2026 12:30pm to 1:00pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0222/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0222/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0222/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0222/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0222/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0222/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0222/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0222/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0222/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0222/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0222/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-09-28-14:41:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0223</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">920000</price>
+    <priceView>Auction</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>135</streetNumber>
+      <street>Variable Drive</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 3-bedroom, 2-bathroom house in Palmview with 3 car spaces. Includes air conditioning. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>air_conditioning</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">795</area></landDetails>
+    <buildingDetails><area unit="squareMeter">120</area></buildingDetails>
+    <auction date="2026-11-14-10:00"/>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:30am to 12:00pm</inspection>
+      <inspection>7-Nov-2026 10:15am to 11:00am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0223/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0223/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0223/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0223/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0223/d.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-21-14:10:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0224</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1160000</price>
+    <priceView>Offers over $1,160,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>202</streetNumber>
+      <street>Synthetic Avenue</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Entertainer's house with pool</headline>
+    <description>Fictional 4-bedroom, 2-bathroom house in Buderim with 3 car spaces. Includes outdoor ent, pool, shed, side access. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>3</garages>
+      <pool>1</pool>
+      <otherFeatures>outdoor_ent, shed, side_access</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">580</area></landDetails>
+    <buildingDetails><area unit="squareMeter">150</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:45am to 12:15pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0224/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0224/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0224/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0224/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0224/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0224/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0224/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0224/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0224/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0224/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0224/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-R-0224/k.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-28-15:46:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0232</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1005000</price>
+    <priceView>$1,005,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>164</streetNumber>
+      <street>Sandbox Parade</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 2-bedroom, 1-bathroom house in Maroochydore with 1 car space. Includes deck, shed, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>deck, shed, study</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">710</area></landDetails>
+    <buildingDetails><area unit="squareMeter">110</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:15am to 12:00pm</inspection>
+      <inspection>7-Nov-2026 9:15am to 9:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0232/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0232/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0232/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0232/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0232/d.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-10-12:12:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0234</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">1375000</price>
+    <priceView>Auction</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>224</streetNumber>
+      <street>Example Close</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 4-bedroom, 2-bathroom house in Buderim with 2 car spaces. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+    </features>
+    <landDetails><area unit="squareMeter">740</area></landDetails>
+    <buildingDetails><area unit="squareMeter">195</area></buildingDetails>
+    <auction date="2026-11-28-10:00"/>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:45am to 10:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0234/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0234/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0234/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0234/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0234/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0234/e.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-27-08:23:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0236</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1085000</price>
+    <priceView>$1,085,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>100</streetNumber>
+      <street>Testing Crescent</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>First-home-friendly house in Maroochydore</headline>
+    <description>Fictional 2-bedroom, 2-bathroom house in Maroochydore with 3 car spaces. Includes pool. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>3</garages>
+      <pool>1</pool>
+    </features>
+    <landDetails><area unit="squareMeter">715</area></landDetails>
+    <buildingDetails><area unit="squareMeter">100</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0236/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0236/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0236/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0236/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0236/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0236/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0236/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-03-13:25:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0237</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">555000</price>
+    <priceView>Contact agent</priceView>
+    <address display="yes">
+      <subNumber>12</subNumber>
+      <streetNumber>110</streetNumber>
+      <street>Variable Court</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>2-bedroom unit close to the beach</headline>
+    <description>Fictional 2-bedroom, 2-bathroom unit in Palmview with 0 car spaces. Includes built in robes, fully fenced, remote garage, shed, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>built_in_robes, fully_fenced, remote_garage, shed, study</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">100</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:30am to 10:00am</inspection>
+      <inspection>7-Nov-2026 9:00am to 9:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0237/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0237/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0237/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0237/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0237/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0237/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0237/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0237/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0237/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0237/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0237/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-09-10:58:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0241</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">520000</price>
+    <priceView>$520,000 - $560,000</priceView>
+    <address display="yes">
+      <subNumber>2</subNumber>
+      <streetNumber>111</streetNumber>
+      <street>Constant Parade</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Family unit on a quiet street</headline>
+    <description>Fictional 2-bedroom, 2-bathroom unit in Palmview with 0 car spaces. Includes deck, secure parking, solar panels. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>deck, secure_parking, solar_panels</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">100</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0241/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0241/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0241/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0241/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0241/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0241/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0241/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-03-15:06:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0245</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">800000</price>
+    <priceView>$800,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>184</streetNumber>
+      <street>Variable Crescent</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>Low-maintenance townhouse near shops and transport</headline>
+    <description>Fictional 5-bedroom, 2-bathroom townhouse in Maroochydore with 2 car spaces. Includes balcony, dishwasher, side access, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>5</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>balcony, dishwasher, side_access, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">200</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:30pm to 1:00pm</inspection>
+      <inspection>7-Nov-2026 11:15am to 11:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0245/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0245/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0245/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0245/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0245/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0245/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0245/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0245/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0245/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0245/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0245/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <land modTime="2026-10-12-08:05:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-V-0252</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">545000</price>
+    <priceView>Auction</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>Lot 46</streetNumber>
+      <street>Synthetic Drive</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <headline>Level block ready to build</headline>
+    <description>Fictional 535 m² block in Buderim. Synthetic listing for prototype testing.</description>
+    <landDetails><area unit="squareMeter">535</area></landDetails>
+    <auction date="2026-11-14-10:00"/>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-V-0252/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-V-0252/a.jpg" format="jpg"/>
+    </objects>
+  </land>
+  <residential modTime="2026-10-14-08:55:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0253</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">990000</price>
+    <priceView>$990,000 - $1,030,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>163</streetNumber>
+      <street>Prototype Terrace</street>
+      <suburb display="yes">Birtinya</suburb>
+      <state>QLD</state>
+      <postcode>4575</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>3-bedroom house close to the beach</headline>
+    <description>Fictional 3-bedroom, 2-bathroom house in Birtinya with 1 car space. Includes balcony, dishwasher, remote garage, solar panels, study, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>balcony, dishwasher, remote_garage, solar_panels, study, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">675</area></landDetails>
+    <buildingDetails><area unit="squareMeter">125</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:15am to 10:00am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0253/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0253/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0253/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0253/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0253/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0253/e.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-05-10:23:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0254</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">1045000</price>
+    <priceView>Contact agent</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>2</streetNumber>
+      <street>Sample Place</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>4-bedroom house close to the beach</headline>
+    <description>Fictional 4-bedroom, 3-bathroom house in Maroochydore with 1 car space. Includes air conditioning, balcony, outdoor ent, pool. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>1</garages>
+      <pool>1</pool>
+      <otherFeatures>air_conditioning, balcony, outdoor_ent</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">865</area></landDetails>
+    <buildingDetails><area unit="squareMeter">155</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0254/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0254/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0254/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0254/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0254/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0254/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0254/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0254/g.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-09-30-12:03:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0255</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1350000</price>
+    <priceView>Offers over $1,350,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>103</streetNumber>
+      <street>Dummy Lane</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 4-bedroom, 2-bathroom house in Maroochydore with 1 car space. Includes air conditioning, deck, dishwasher, outdoor ent. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>air_conditioning, deck, dishwasher, outdoor_ent</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">710</area></landDetails>
+    <buildingDetails><area unit="squareMeter">150</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:45am to 11:30am</inspection>
+      <inspection>7-Nov-2026 9:00am to 9:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0255/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0255/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0255/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0255/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0255/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0255/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0255/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0255/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0255/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0255/i.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-09-16:05:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0256</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">475000</price>
+    <priceView>Offers over $475,000</priceView>
+    <address display="yes">
+      <subNumber>28</subNumber>
+      <streetNumber>2</streetNumber>
+      <street>Pixel Terrace</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Light-filled unit with room to grow</headline>
+    <description>Fictional 1-bedroom, 1-bathroom unit in Maroochydore with 2 car spaces. Includes air conditioning, balcony, dishwasher, fully fenced, remote garage. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>air_conditioning, balcony, dishwasher, fully_fenced, remote_garage</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">65</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:00am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0256/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0256/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0256/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0256/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0256/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0256/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0256/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-09-29-10:34:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0257</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">960000</price>
+    <priceView>$960,000 - $1,000,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>68</streetNumber>
+      <street>Fixture Crescent</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 4-bedroom, 2-bathroom house in Palmview with 1 car space. Includes deck, outdoor ent, secure parking, shed, solar panels. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>deck, outdoor_ent, secure_parking, shed, solar_panels</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">910</area></landDetails>
+    <buildingDetails><area unit="squareMeter">170</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0257/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0257/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0257/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0257/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0257/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0257/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0257/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0257/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0257/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0257/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0257/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-R-0257/k.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-06-14:03:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0258</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1270000</price>
+    <priceView>Offers over $1,270,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>218</streetNumber>
+      <street>Ipsum Parade</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>5-bedroom house close to the beach</headline>
+    <description>Fictional 5-bedroom, 3-bathroom house in Little Mountain with 1 car space. Includes built in robes, deck, outdoor ent, pool, secure parking, side access, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>5</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>1</garages>
+      <pool>1</pool>
+      <otherFeatures>built_in_robes, deck, outdoor_ent, secure_parking, side_access, study</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">940</area></landDetails>
+    <buildingDetails><area unit="squareMeter">260</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0258/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0258/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0258/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0258/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0258/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0258/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0258/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0258/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0258/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0258/i.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-02-11:37:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0259</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">960000</price>
+    <priceView>$960,000 - $1,000,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>124</streetNumber>
+      <street>Mockingbird Court</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>3-bedroom house close to the beach</headline>
+    <description>Fictional 3-bedroom, 3-bathroom house in Maroochydore with 1 car space. Includes fully fenced, side access, solar panels, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>fully_fenced, side_access, solar_panels, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">670</area></landDetails>
+    <buildingDetails><area unit="squareMeter">125</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:30pm to 1:00pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0259/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0259/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0259/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0259/c.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-01-17:52:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0273</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1390000</price>
+    <priceView>$1,390,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>72</streetNumber>
+      <street>Synthetic Court</street>
+      <suburb display="yes">Caloundra</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 5-bedroom, 3-bathroom house in Caloundra with 1 car space. Includes built in robes, remote garage, secure parking, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>5</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>built_in_robes, remote_garage, secure_parking, study</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">940</area></landDetails>
+    <buildingDetails><area unit="squareMeter">215</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:45am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0273/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0273/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0273/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0273/c.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-07-08:57:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0275</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">660000</price>
+    <priceView>$660,000 - $700,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>196</streetNumber>
+      <street>Mockingbird Drive</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>First-home-friendly house in Little Mountain</headline>
+    <description>Fictional 2-bedroom, 1-bathroom house in Little Mountain with 3 car spaces. Includes air conditioning, built in robes, dishwasher, side access, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>air_conditioning, built_in_robes, dishwasher, side_access, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">655</area></landDetails>
+    <buildingDetails><area unit="squareMeter">110</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:30pm to 1:00pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0275/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0275/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0275/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0275/c.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-18-08:06:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0278</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1220000</price>
+    <priceView>Offers over $1,220,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>86</streetNumber>
+      <street>Fixture Drive</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 4-bedroom, 3-bathroom house in Maroochydore with 2 car spaces. Includes built in robes, deck, dishwasher, side access, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>built_in_robes, deck, dishwasher, side_access, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">765</area></landDetails>
+    <buildingDetails><area unit="squareMeter">200</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0278/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0278/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0278/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0278/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0278/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0278/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0278/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0278/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0278/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0278/i.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-02-15:46:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0283</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="no">1025000</price>
+    <priceView>Contact agent</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>95</streetNumber>
+      <street>Draft Close</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Renovator's opportunity in Coolum Beach</headline>
+    <description>Fictional 2-bedroom, 2-bathroom house in Coolum Beach with 1 car space. Includes deck, fully fenced. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>deck, fully_fenced</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">470</area></landDetails>
+    <buildingDetails><area unit="squareMeter">110</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:30am to 11:00am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0283/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0283/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0283/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0283/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0283/d.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-28-10:57:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0287</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">865000</price>
+    <priceView>Offers over $865,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>224</streetNumber>
+      <street>Prototype Close</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>2-bedroom house close to the beach</headline>
+    <description>Fictional 2-bedroom, 1-bathroom house in Maroochydore with 2 car spaces. Includes built in robes, solar panels. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>built_in_robes, solar_panels</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">895</area></landDetails>
+    <buildingDetails><area unit="squareMeter">100</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:30am to 11:15am</inspection>
+      <inspection>7-Nov-2026 11:45am to 12:00pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0287/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0287/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0287/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0287/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0287/d.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-16-08:05:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0295</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="yes"/>
+    <price display="yes">830000</price>
+    <priceView>$830,000 - $870,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>10</streetNumber>
+      <street>Ipsum Terrace</street>
+      <suburb display="yes">Nambour</suburb>
+      <state>QLD</state>
+      <postcode>4560</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Low-maintenance house near shops and transport</headline>
+    <description>Fictional 4-bedroom, 2-bathroom house in Nambour with 2 car spaces. Includes outdoor ent, remote garage, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>outdoor_ent, remote_garage, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">540</area></landDetails>
+    <buildingDetails><area unit="squareMeter">190</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:00am to 10:30am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0295/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0295/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0295/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0295/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0295/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0295/e.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-11-13:29:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0302</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="yes"/>
+    <price display="no">920000</price>
+    <priceView>Auction</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>112</streetNumber>
+      <street>Template Street</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>Family townhouse on a quiet street</headline>
+    <description>Fictional 4-bedroom, 1-bathroom townhouse in Buderim with 0 car spaces. Includes balcony, outdoor ent. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>balcony, outdoor_ent</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">205</area></buildingDetails>
+    <auction date="2026-11-28-10:00"/>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0302/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0302/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0302/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0302/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0302/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0302/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0302/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0302/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0302/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0302/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-R-0302/j.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-17-15:08:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0309</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">760000</price>
+    <priceView>Offers over $760,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>18</streetNumber>
+      <street>Lorem Avenue</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>Family townhouse on a quiet street</headline>
+    <description>Fictional 3-bedroom, 3-bathroom townhouse in Little Mountain with 1 car space. Includes air conditioning, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>air_conditioning, study</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">130</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:15am to 10:45am</inspection>
+      <inspection>7-Nov-2026 11:45am to 12:15pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0309/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0309/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0309/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0309/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0309/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0309/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0309/f.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <residential modTime="2026-10-18-13:56:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-R-0317</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <price display="yes">1195000</price>
+    <priceView>Offers over $1,195,000</priceView>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>89</streetNumber>
+      <street>Template Street</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Entertainer's house with pool</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Maroochydore with 1 car space. Includes pool. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>1</garages>
+      <pool>1</pool>
+    </features>
+    <landDetails><area unit="squareMeter">935</area></landDetails>
+    <buildingDetails><area unit="squareMeter">175</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:15am to 9:45am</inspection>
+      <inspection>7-Nov-2026 10:30am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-R-0317/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-R-0317/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-R-0317/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-R-0317/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-R-0317/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-R-0317/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-R-0317/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-R-0317/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-R-0317/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-R-0317/i.jpg" format="jpg"/>
+    </objects>
+  </residential>
+  <rental modTime="2026-10-24-09:45:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0325</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">830</rent>
+    <bond>3320</bond>
+    <dateAvailable>2026-12-03</dateAvailable>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>227</streetNumber>
+      <street>Sandbox Lane</street>
+      <suburb display="yes">Caloundra</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 3-bedroom, 1-bathroom house in Caloundra with 2 car spaces. Includes balcony, deck. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>balcony, deck</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">615</area></landDetails>
+    <buildingDetails><area unit="squareMeter">145</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:45am to 11:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0325/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0325/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0325/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0325/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0325/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0325/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-L-0325/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-L-0325/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-L-0325/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-L-0325/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-L-0325/j.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-02-10:03:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0333</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">560</rent>
+    <bond>2240</bond>
+    <dateAvailable>2026-11-09</dateAvailable>
+    <address display="yes">
+      <subNumber>34</subNumber>
+      <streetNumber>232</streetNumber>
+      <street>Synthetic Lane</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Family unit on a quiet street</headline>
+    <description>Fictional 3-bedroom, 1-bathroom unit in Maroochydore with 1 car space. Includes air conditioning, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>air_conditioning, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">135</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0333/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0333/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0333/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0333/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0333/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0333/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-L-0333/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-L-0333/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-L-0333/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-L-0333/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-L-0333/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-L-0333/k.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-09-13:16:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0338</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">530</rent>
+    <bond>2120</bond>
+    <dateAvailable>2026-11-09</dateAvailable>
+    <address display="yes">
+      <subNumber>35</subNumber>
+      <streetNumber>15</streetNumber>
+      <street>Wireframe Drive</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Light-filled unit with room to grow</headline>
+    <description>Fictional 2-bedroom, 2-bathroom unit in Maroochydore with 0 car spaces. Includes fully fenced, shed, solar panels, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>fully_fenced, shed, solar_panels, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">110</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0338/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0338/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0338/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0338/c.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-14-12:09:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0343</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">1220</rent>
+    <bond>4880</bond>
+    <dateAvailable>2026-11-23</dateAvailable>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>1</streetNumber>
+      <street>Fixture Street</street>
+      <suburb display="yes">Coolum Beach</suburb>
+      <state>QLD</state>
+      <postcode>4573</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Family house on a quiet street</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Coolum Beach with 3 car spaces. Includes outdoor ent. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>outdoor_ent</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">585</area></landDetails>
+    <buildingDetails><area unit="squareMeter">170</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0343/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0343/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0343/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0343/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0343/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0343/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-L-0343/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-L-0343/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-L-0343/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-L-0343/i.jpg" format="jpg"/>
+      <img id="j" url="https://media.synthetic.example/SYN-L-0343/j.jpg" format="jpg"/>
+      <img id="k" url="https://media.synthetic.example/SYN-L-0343/k.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-12-12:10:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0368</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">570</rent>
+    <bond>2280</bond>
+    <dateAvailable>2026-11-14</dateAvailable>
+    <address display="yes">
+      <subNumber>11</subNumber>
+      <streetNumber>144</streetNumber>
+      <street>Fiction Lane</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Light-filled unit with room to grow</headline>
+    <description>Fictional 3-bedroom, 1-bathroom unit in Maroochydore with 0 car spaces. Includes outdoor ent. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>outdoor_ent</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">145</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 9:30am to 10:00am</inspection>
+      <inspection>7-Nov-2026 9:45am to 10:15am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0368/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0368/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0368/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0368/c.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-07-14:05:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0379</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">930</rent>
+    <bond>3720</bond>
+    <dateAvailable>2026-11-16</dateAvailable>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>46</streetNumber>
+      <street>Variable Lane</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 5-bedroom, 1-bathroom house in Buderim with 3 car spaces. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>5</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>3</garages>
+    </features>
+    <landDetails><area unit="squareMeter">935</area></landDetails>
+    <buildingDetails><area unit="squareMeter">260</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0379/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0379/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0379/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0379/c.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-16-08:18:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0390</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">480</rent>
+    <bond>1920</bond>
+    <dateAvailable>2026-11-19</dateAvailable>
+    <address display="yes">
+      <subNumber>10</subNumber>
+      <streetNumber>204</streetNumber>
+      <street>Testing Street</street>
+      <suburb display="yes">Maroochydore</suburb>
+      <state>QLD</state>
+      <postcode>4558</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>1-bedroom unit close to the beach</headline>
+    <description>Fictional 1-bedroom, 1-bathroom unit in Maroochydore with 0 car spaces. Includes study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>study</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">55</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 12:00pm to 12:30pm</inspection>
+      <inspection>7-Nov-2026 12:00pm to 12:30pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0390/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0390/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0390/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0390/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0390/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0390/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-L-0390/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-L-0390/g.jpg" format="jpg"/>
+      <img id="h" url="https://media.synthetic.example/SYN-L-0390/h.jpg" format="jpg"/>
+      <img id="i" url="https://media.synthetic.example/SYN-L-0390/i.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-13-13:35:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0402</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">570</rent>
+    <bond>2280</bond>
+    <dateAvailable>2026-11-23</dateAvailable>
+    <address display="yes">
+      <subNumber>8</subNumber>
+      <streetNumber>106</streetNumber>
+      <street>Fixture Lane</street>
+      <suburb display="yes">Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>First-home-friendly unit in Buderim</headline>
+    <description>Fictional 2-bedroom, 2-bathroom unit in Buderim with 2 car spaces. Includes balcony, built in robes, fully fenced, outdoor ent, remote garage, secure parking, shed, solar panels. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>2</bedrooms>
+      <bathrooms>2</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>balcony, built_in_robes, fully_fenced, outdoor_ent, remote_garage, secure_parking, shed, solar_panels</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">115</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 10:30am to 10:45am</inspection>
+      <inspection>7-Nov-2026 11:15am to 11:45am</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0402/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0402/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0402/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0402/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0402/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0402/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-L-0402/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-L-0402/g.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-13-14:14:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0403</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <listingAgent id="2"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">1020</rent>
+    <bond>4080</bond>
+    <dateAvailable>2026-11-15</dateAvailable>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>34</streetNumber>
+      <street>Variable Crescent</street>
+      <suburb display="yes">Caloundra</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>4-bedroom house close to the beach</headline>
+    <description>Fictional 4-bedroom, 1-bathroom house in Caloundra with 3 car spaces. Includes balcony, fully fenced, pool, secure parking, study, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>3</garages>
+      <pool>1</pool>
+      <otherFeatures>balcony, fully_fenced, secure_parking, study, water_tank</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">920</area></landDetails>
+    <buildingDetails><area unit="squareMeter">175</area></buildingDetails>
+    <inspectionTimes>
+      <inspection>31-Oct-2026 11:45am to 12:15pm</inspection>
+    </inspectionTimes>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0403/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0403/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0403/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0403/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0403/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0403/e.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-02-14:59:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0404</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">350</rent>
+    <bond>1400</bond>
+    <dateAvailable>2026-11-13</dateAvailable>
+    <address display="yes">
+      <subNumber>16</subNumber>
+      <streetNumber>88</streetNumber>
+      <street>Constant Avenue</street>
+      <suburb display="yes">Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Light-filled unit with room to grow</headline>
+    <description>Fictional 1-bedroom, 1-bathroom unit in Palmview with 2 car spaces. Includes air conditioning, deck, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>2</garages>
+      <otherFeatures>air_conditioning, deck, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">60</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0404/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0404/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0404/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0404/c.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-26-15:42:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0417</uniqueID>
+    <listingAgent id="1"><name>Riley Fixture</name><telephone type="BH">0700 998 087</telephone><email>riley.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">390</rent>
+    <bond>1560</bond>
+    <dateAvailable>2026-11-17</dateAvailable>
+    <address display="yes">
+      <subNumber>40</subNumber>
+      <streetNumber>191</streetNumber>
+      <street>Synthetic Terrace</street>
+      <suburb display="yes">Birtinya</suburb>
+      <state>QLD</state>
+      <postcode>4575</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Unit"/>
+    <headline>Family unit on a quiet street</headline>
+    <description>Fictional 1-bedroom, 1-bathroom unit in Birtinya with 1 car space. Includes air conditioning, side access, solar panels, water tank. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>1</bedrooms>
+      <bathrooms>1</bathrooms>
+      <garages>1</garages>
+      <otherFeatures>air_conditioning, side_access, solar_panels, water_tank</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">70</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0417/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0417/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0417/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0417/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0417/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0417/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-L-0417/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-L-0417/g.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-13-17:14:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0428</uniqueID>
+    <listingAgent id="1"><name>Quinn Example</name><telephone type="BH">0700 644 520</telephone><email>quinn.example@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">770</rent>
+    <bond>3080</bond>
+    <dateAvailable>2026-11-23</dateAvailable>
+    <address display="yes">
+      <subNumber>35</subNumber>
+      <streetNumber>127</streetNumber>
+      <street>Stub Street</street>
+      <suburb display="yes">Caloundra</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="Townhouse"/>
+    <headline>Light-filled townhouse with room to grow</headline>
+    <description>Fictional 4-bedroom, 3-bathroom townhouse in Caloundra with 0 car spaces. Includes built in robes, outdoor ent, secure parking, shed, solar panels, study. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>4</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>0</garages>
+      <otherFeatures>built_in_robes, outdoor_ent, secure_parking, shed, solar_panels, study</otherFeatures>
+    </features>
+    <buildingDetails><area unit="squareMeter">200</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0428/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0428/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0428/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0428/c.jpg" format="jpg"/>
+      <img id="d" url="https://media.synthetic.example/SYN-L-0428/d.jpg" format="jpg"/>
+      <img id="e" url="https://media.synthetic.example/SYN-L-0428/e.jpg" format="jpg"/>
+      <img id="f" url="https://media.synthetic.example/SYN-L-0428/f.jpg" format="jpg"/>
+      <img id="g" url="https://media.synthetic.example/SYN-L-0428/g.jpg" format="jpg"/>
+    </objects>
+  </rental>
+  <rental modTime="2026-10-21-13:31:00" status="current">
+    <agentID>SYN-AG-004</agentID>
+    <uniqueID>SYN-L-0430</uniqueID>
+    <listingAgent id="1"><name>Avery Fixture</name><telephone type="BH">0700 425 524</telephone><email>avery.fixture@fictional-shores-estate-agents.example</email></listingAgent>
+    <underOffer value="no"/>
+    <rent period="week" display="yes">880</rent>
+    <bond>3520</bond>
+    <dateAvailable>2026-12-07</dateAvailable>
+    <address display="yes">
+      <subNumber></subNumber>
+      <streetNumber>70</streetNumber>
+      <street>Example Terrace</street>
+      <suburb display="yes">Little Mountain</suburb>
+      <state>QLD</state>
+      <postcode>4551</postcode>
+      <country>AUS</country>
+    </address>
+    <category name="House"/>
+    <headline>Light-filled house with room to grow</headline>
+    <description>Fictional 3-bedroom, 3-bathroom house in Little Mountain with 3 car spaces. Includes built in robes, dishwasher, outdoor ent, side access. Synthetic listing for prototype testing.</description>
+    <features>
+      <bedrooms>3</bedrooms>
+      <bathrooms>3</bathrooms>
+      <garages>3</garages>
+      <otherFeatures>built_in_robes, dishwasher, outdoor_ent, side_access</otherFeatures>
+    </features>
+    <landDetails><area unit="squareMeter">545</area></landDetails>
+    <buildingDetails><area unit="squareMeter">150</area></buildingDetails>
+    <objects>
+      <img id="m" url="https://media.synthetic.example/SYN-L-0430/m.jpg" format="jpg"/>
+      <img id="a" url="https://media.synthetic.example/SYN-L-0430/a.jpg" format="jpg"/>
+      <img id="b" url="https://media.synthetic.example/SYN-L-0430/b.jpg" format="jpg"/>
+      <img id="c" url="https://media.synthetic.example/SYN-L-0430/c.jpg" format="jpg"/>
+    </objects>
+  </rental>
+</propertyList>

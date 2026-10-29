@@ -1,0 +1,181 @@
+{
+  "id": "qld.fhb_entitlement",
+  "version": "0.1.0",
+  "jurisdiction": "QLD",
+  "domain": "fhb_entitlement",
+  "title": "First home buyer entitlements for a Queensland purchase (QLD grant and duty concessions, federal First Home Guarantee)",
+  "status": "draft",
+  "effectiveFrom": "2025-10-01",
+  "effectiveTo": null,
+  "disclaimer": "DRAFT. General information only, not financial or legal advice. Results are indicative and must be confirmed with Queensland Revenue Office, Housing Australia and a participating lender. Program rules change; check the effective date and sources shown.",
+  "approval": null,
+  "facts": [
+    { "key": "purchase.home_kind", "type": "string", "values": ["established", "new", "off_the_plan", "house_and_land", "build_on_own_land", "vacant_land"], "description": "What you plan to buy or build", "personal": false },
+    { "key": "purchase.value_aud", "type": "number", "description": "Expected purchase price or total value including land and contract variations", "personal": true, "purpose": "Grant value caps and duty concession bands depend on price." },
+    { "key": "purchase.hgs_price_cap_region", "type": "string", "values": ["qld_capital_or_regional_centre", "qld_rest_of_state"], "description": "Derived from the property location: Brisbane, Gold Coast and Sunshine Coast use the higher cap" },
+    { "key": "applicants.all_18_plus", "type": "boolean", "description": "Every applicant is 18 or older", "personal": true, "purpose": "Age is an eligibility condition for the grant and guarantee." },
+    { "key": "applicants.any_citizen_or_pr", "type": "boolean", "description": "At least one applicant is an Australian citizen or permanent resident", "personal": true, "purpose": "Residency is an eligibility condition for the grant." },
+    { "key": "applicants.all_citizen_or_pr", "type": "boolean", "description": "Every applicant is an Australian citizen or permanent resident", "personal": true, "purpose": "Residency is an eligibility condition for the guarantee." },
+    { "key": "applicants.received_fhog_before", "type": "boolean", "description": "You or your spouse have received a first home owner grant in any state before", "personal": true, "purpose": "A previous grant rules out the grant." },
+    { "key": "applicants.owned_disqualifying_property_fhog", "type": "boolean", "description": "You or your spouse owned residential property in Australia that you lived in on or after 1 July 2000, or any residential property before 1 July 2000", "personal": true, "purpose": "Prior home ownership rules out the grant." },
+    { "key": "applicants.owned_property_last_10_years", "type": "boolean", "description": "Any applicant owned an interest in Australian real property, including land, in the past 10 years", "personal": true, "purpose": "Prior ownership rules out the guarantee." },
+    { "key": "applicants.first_home_buyer_for_duty", "type": "boolean", "description": "You have not previously owned a home that would rule out the first home concession", "personal": true, "purpose": "First home status for the duty concession." },
+    { "key": "applicants.will_live_in_home", "type": "boolean", "description": "You will move in as your main home within 1 year and live there for at least 6 months", "personal": true, "purpose": "Owner-occupation is required by every program here." },
+    { "key": "finance.deposit_percent", "type": "number", "description": "Deposit as a percentage of the purchase price", "personal": true, "purpose": "The guarantee needs at least a 5% deposit." }
+  ],
+  "rules": [
+    {
+      "id": "QLD-FHOG-30K",
+      "title": "Queensland First Home Owner Grant",
+      "test": {
+        "all": [
+          { "fact": "purchase.home_kind", "op": "in", "value": ["new", "off_the_plan", "house_and_land", "build_on_own_land"] },
+          { "fact": "purchase.value_aud", "op": "lt", "value": 750000 },
+          { "fact": "applicants.all_18_plus", "op": "is_true" },
+          { "fact": "applicants.any_citizen_or_pr", "op": "is_true" },
+          { "fact": "applicants.received_fhog_before", "op": "is_false" },
+          { "fact": "applicants.owned_disqualifying_property_fhog", "op": "is_false" },
+          { "fact": "applicants.will_live_in_home", "op": "is_true" }
+        ]
+      },
+      "severity": "advisory",
+      "failureReason": "Not eligible on the answers given. The grant is for new homes valued under $750,000, for first home owners who will live in the home.",
+      "benefit": { "type": "fixed_aud", "amount": 30000, "description": "One-off grant of $30,000 for contracts signed on or after 20 November 2023" },
+      "sources": [
+        { "title": "QRO: First home owner grant eligibility", "url": "https://qro.qld.gov.au/property-concessions-grants/first-home-grant/eligibility/", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [
+        "Contract is signed (or foundations laid, for owner-builders) on or after 20 November 2023.",
+        "No end date for the $30,000 amount was stated on the QRO page when retrieved; confirm before relying on it.",
+        "Substantially renovated homes can qualify in limited cases; not modelled here."
+      ],
+      "platformPolicy": false
+    },
+    {
+      "id": "QLD-DUTY-NEW",
+      "title": "First home concession for a new home (transfer duty)",
+      "test": {
+        "all": [
+          { "fact": "purchase.home_kind", "op": "in", "value": ["new", "off_the_plan", "house_and_land"] },
+          { "fact": "applicants.first_home_buyer_for_duty", "op": "is_true" },
+          { "fact": "applicants.will_live_in_home", "op": "is_true" }
+        ]
+      },
+      "severity": "advisory",
+      "failureReason": "Not eligible on the answers given. This concession is for first home buyers of a new home they will live in.",
+      "benefit": { "type": "described", "description": "No transfer duty on the residential land for eligible transactions on or after 1 May 2025, with no cap on the home's value" },
+      "sources": [
+        { "title": "QRO: First home concession (new homes and vacant land)", "url": "https://qro.qld.gov.au/?p=369", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": ["Standard duty still applies to any extra land that is not residential.", "Full residence conditions are on the QRO eligibility tester and have not been encoded."],
+      "platformPolicy": false
+    },
+    {
+      "id": "QLD-DUTY-LAND",
+      "title": "First home vacant land concession (transfer duty)",
+      "test": {
+        "all": [
+          { "fact": "purchase.home_kind", "op": "eq", "value": "vacant_land" },
+          { "fact": "applicants.first_home_buyer_for_duty", "op": "is_true" },
+          { "fact": "applicants.will_live_in_home", "op": "is_true" }
+        ]
+      },
+      "severity": "advisory",
+      "failureReason": "Not eligible on the answers given. This concession is for first home buyers buying land to build a home they will live in.",
+      "benefit": { "type": "described", "description": "No transfer duty on residential vacant land for eligible transactions on or after 1 May 2025, with no cap on the land's value" },
+      "sources": [
+        { "title": "QRO: First home concession (new homes and vacant land)", "url": "https://qro.qld.gov.au/?p=369", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": ["Full conditions (such as building time frames) are on the QRO eligibility tester and have not been encoded."],
+      "platformPolicy": false
+    },
+    {
+      "id": "QLD-DUTY-EST",
+      "title": "First home concession for an established home (transfer duty)",
+      "test": {
+        "all": [
+          { "fact": "purchase.home_kind", "op": "eq", "value": "established" },
+          { "fact": "purchase.value_aud", "op": "lt", "value": 800000 },
+          { "fact": "applicants.first_home_buyer_for_duty", "op": "is_true" },
+          { "fact": "applicants.will_live_in_home", "op": "is_true" }
+        ]
+      },
+      "severity": "advisory",
+      "failureReason": "Not eligible on the answers given. This concession is for first home buyers of an established home under $800,000 they will live in.",
+      "benefit": {
+        "type": "banded_aud",
+        "fact": "purchase.value_aud",
+        "description": "Reduction in transfer duty (contracts signed on or after 9 June 2024)",
+        "bands": [
+          { "below": 710000, "amount": 17350 },
+          { "below": 720000, "amount": 15615 },
+          { "below": 730000, "amount": 13880 },
+          { "below": 740000, "amount": 12145 },
+          { "below": 750000, "amount": 10410 },
+          { "below": 760000, "amount": 8675 },
+          { "below": 770000, "amount": 6940 },
+          { "below": 780000, "amount": 5205 },
+          { "below": 790000, "amount": 3470 },
+          { "below": 800000, "amount": 1735 }
+        ],
+        "otherwise": 0
+      },
+      "sources": [
+        { "title": "QRO: First home concession rates", "url": "https://qro.qld.gov.au/?p=369", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [
+        "The $17,350 top band and $1,735 bottom band are from QRO; the intermediate bands assume equal $1,735 steps per $10,000 and must be checked against the QRO table.",
+        "This is a reduction to the home concession duty amount, not the total duty payable."
+      ],
+      "platformPolicy": false
+    },
+    {
+      "id": "AU-HGS-FHG",
+      "title": "Federal First Home Guarantee (5% deposit, no lenders mortgage insurance)",
+      "test": {
+        "all": [
+          { "fact": "applicants.all_18_plus", "op": "is_true" },
+          { "fact": "applicants.all_citizen_or_pr", "op": "is_true" },
+          { "fact": "applicants.owned_property_last_10_years", "op": "is_false" },
+          { "fact": "applicants.will_live_in_home", "op": "is_true" },
+          { "fact": "finance.deposit_percent", "op": "gte", "value": 5 },
+          { "fact": "purchase.home_kind", "op": "neq", "value": "vacant_land" },
+          {
+            "any": [
+              {
+                "all": [
+                  { "fact": "purchase.hgs_price_cap_region", "op": "eq", "value": "qld_capital_or_regional_centre" },
+                  { "fact": "purchase.value_aud", "op": "lte", "value": 1000000 }
+                ]
+              },
+              {
+                "all": [
+                  { "fact": "purchase.hgs_price_cap_region", "op": "eq", "value": "qld_rest_of_state" },
+                  { "fact": "purchase.value_aud", "op": "lte", "value": 700000 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "severity": "advisory",
+      "failureReason": "Not eligible on the answers given. The guarantee needs owner-occupiers with at least a 5% deposit, no property owned in the last 10 years, and a price within the local cap ($1,000,000 in Brisbane, Gold Coast and Sunshine Coast; $700,000 elsewhere in Queensland).",
+      "benefit": { "type": "described", "description": "Government guarantee of up to 15% of the property value, so you can buy with a 5% deposit without lenders mortgage insurance. Places are unlimited from 1 October 2025." },
+      "sources": [
+        { "title": "Housing Australia: Unlimited places, higher property price caps from 1 October 2025", "url": "https://housingaustralia.gov.au/media/unlimited-places-higher-property-price-caps-first-home-buyers-1-october-2025", "retrievedOn": "2026-10-28" },
+        { "title": "Housing Australia: First Home Guarantee", "url": "https://www.housingaustralia.gov.au/node/5996", "retrievedOn": "2026-10-28" }
+      ],
+      "assumptions": [
+        "Income caps: the 1 October 2025 announcement removes them, but the First Home Guarantee page still listed $125,000 single / $200,000 joint when retrieved. This pack follows the announcement; confirm with Housing Australia.",
+        "Approval is by a participating lender, who may need a larger deposit."
+      ],
+      "platformPolicy": false
+    }
+  ],
+  "openQuestions": [
+    "Conflicting sources on Home Guarantee income caps (see AU-HGS-FHG assumptions).",
+    "QRO intermediate duty concession bands to be checked against the published table.",
+    "Shared-equity (Help to Buy) and QLD-specific schemes are not yet encoded.",
+    "Income band: no program in this pack currently depends on income, so the FHB questionnaire should not ask for it (V11 §12.5 minimisation). Revisit if a means-tested program is added."
+  ]
+}

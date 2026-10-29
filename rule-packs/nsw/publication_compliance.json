@@ -1,0 +1,47 @@
+{
+  "id": "nsw.publication_compliance",
+  "version": "0.0.1",
+  "jurisdiction": "NSW",
+  "domain": "publication_compliance",
+  "title": "New South Wales listing publication gate (stub)",
+  "status": "draft",
+  "effectiveFrom": "2025-08-01",
+  "effectiveTo": null,
+  "disclaimer": "STUB. Kept so the NSW option stays open until the pilot market is locked (V11 §13 item 4). Rules have not been researched or verified. Not legal advice.",
+  "approval": null,
+  "facts": [
+    { "key": "listing.type", "type": "string", "values": ["sale", "rent", "off_the_plan"], "description": "Listing type from the canonical model" },
+    { "key": "property.state", "type": "string", "values": ["QLD", "NSW", "VIC", "SA", "WA", "TAS", "NT", "ACT"], "description": "State of the property" },
+    { "key": "agent.listing_rights", "type": "boolean", "description": "Every listing agent is licence-verified or has an approved exception (FR-AGT-001)" },
+    { "key": "contract.ready_before_marketing", "type": "boolean", "description": "Agent confirms a contract for sale with the required attached documents is available before marketing" }
+  ],
+  "rules": [
+    {
+      "id": "NSW-AGT-001",
+      "title": "Listing agent is licence-verified",
+      "test": { "fact": "agent.listing_rights", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "A listing agent on this property has not passed licence verification.",
+      "sources": [{ "title": "Landora V11 FR-AGT-001", "document": "Landora Concept, Product & Delivery Document V11", "retrievedOn": "2026-10-28" }],
+      "assumptions": [],
+      "platformPolicy": true
+    },
+    {
+      "id": "NSW-CBM-001",
+      "title": "Contract for sale ready before marketing",
+      "appliesWhen": {
+        "all": [
+          { "fact": "property.state", "op": "eq", "value": "NSW" },
+          { "fact": "listing.type", "op": "in", "value": ["sale", "off_the_plan"] }
+        ]
+      },
+      "test": { "fact": "contract.ready_before_marketing", "op": "is_true" },
+      "severity": "blocking",
+      "failureReason": "Confirm the contract for sale, with its required attachments, is ready before this property is marketed.",
+      "sources": [{ "title": "Landora V11 §4 (NSW contract-before-marketing) — legislation to be researched", "document": "Landora Concept, Product & Delivery Document V11", "retrievedOn": "2026-10-28" }],
+      "assumptions": ["Rule wording is from the brief only; NSW legislation has not been checked."],
+      "platformPolicy": false
+    }
+  ],
+  "openQuestions": ["Research the NSW requirements (Conveyancing Act 1919 and Property and Stock Agents Act 2002 and their regulations) if NSW is chosen."]
+}

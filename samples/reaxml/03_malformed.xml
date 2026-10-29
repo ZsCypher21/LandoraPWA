@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC SAMPLE. Deliberately malformed: the residential element is never closed. -->
+<propertyList date="2026-10-27-09:00:00">
+  <residential modTime="2026-10-27-08:00:00" status="current">
+    <agentID>SYN-AG-001</agentID>
+    <uniqueID>SYN-R-9999</uniqueID>
+</propertyList>

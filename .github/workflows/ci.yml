@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test
+      - name: Dependency audit (fail on high or critical)
+        run: pnpm audit --audit-level high
+
+  database:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build PostGIS + pgvector image
+        run: docker build -t landora-db ./db
+      - name: Start database
+        run: |
+          docker run -d --name db -e POSTGRES_USER=landora -e POSTGRES_PASSWORD=landora -e POSTGRES_DB=landora -p 5432:5432 landora-db
+          for i in $(seq 1 30); do docker exec db pg_isready -U landora -d landora && break; sleep 2; done
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Apply migrations
+        env:
+          DATABASE_URL: postgres://landora:landora@localhost:5432/landora
+        run: node scripts/migrate.mjs
+      - name: Schema smoke test
+        run: psql postgres://landora:landora@localhost:5432/landora -v ON_ERROR_STOP=1 -X -q -f db/tests/schema_smoke.sql
+
+  secrets:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

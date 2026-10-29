@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC SAMPLE. Fictional records (V11 §14.4). Exercises status changes and rejection paths. -->
+<propertyList date="2026-10-27-09:00:00" username="synthetic" password="">
+  <residential modTime="2026-10-27-08:00:00" status="sold">
+    <agentID>SYN-AG-001</agentID>
+    <uniqueID>SYN-R-1001</uniqueID>
+    <listingAgent id="1"><name>Alex Example</name><email>alex.example@synthetic-realty.example</email></listingAgent>
+    <price display="yes">650000</price>
+    <priceView>Offers over $650,000</priceView>
+    <address display="yes">
+      <streetNumber>12</streetNumber>
+      <street>Placeholder Parade</street>
+      <suburb>Buderim</suburb>
+      <state>QLD</state>
+      <postcode>4556</postcode>
+    </address>
+    <category name="House"/>
+    <soldDetails>
+      <price display="no">668000</price>
+      <date>2026-10-26</date>
+    </soldDetails>
+  </residential>
+
+  <residential modTime="2026-10-27-08:00:00" status="current">
+    <agentID>SYN-AG-001</agentID>
+    <listingAgent id="1"><name>Alex Example</name></listingAgent>
+    <address display="yes">
+      <street>No Number Road</street>
+      <suburb>Buderim</suburb>
+      <state>QLD</state>
+      <postcode>455</postcode>
+    </address>
+  </residential>
+
+  <land modTime="2026-10-27-08:00:00" status="current">
+    <agentID>SYN-AG-001</agentID>
+    <uniqueID>SYN-V-4001</uniqueID>
+    <price display="yes">395000</price>
+    <address display="yes">
+      <streetNumber>Lot 7</streetNumber>
+      <street>Future Drive</street>
+      <suburb>Palmview</suburb>
+      <state>QLD</state>
+      <postcode>4553</postcode>
+    </address>
+    <landDetails><area unit="hectare">0.045</area></landDetails>
+    <newConstruction>yes</newConstruction>
+  </land>
+</propertyList>

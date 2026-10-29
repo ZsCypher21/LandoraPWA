@@ -1,0 +1,100 @@
+[
+  {
+    "name": "verified agent, house sale, all disclosure ready",
+    "asOf": "2026-10-28",
+    "facts": {
+      "listing.type": "sale",
+      "property.state": "QLD",
+      "agent.listing_rights": true,
+      "disclosure.exemption": "none",
+      "disclosure.form2_ready": true,
+      "disclosure.title_search_ready": true,
+      "property.community_titles_lot": false,
+      "property.has_regulated_pool": false,
+      "property.on_environmental_register": false,
+      "listing.has_inspection_or_appointment": true
+    },
+    "expectOutcome": "pass",
+    "expectRules": { "QLD-SD-003": "not_applicable", "QLD-SD-004": "not_applicable", "QLD-SD-001": "pass" }
+  },
+  {
+    "name": "unverified agent is blocked",
+    "asOf": "2026-10-28",
+    "facts": {
+      "listing.type": "sale",
+      "property.state": "QLD",
+      "agent.listing_rights": false,
+      "disclosure.exemption": "none",
+      "disclosure.form2_ready": true,
+      "disclosure.title_search_ready": true,
+      "property.community_titles_lot": false,
+      "property.has_regulated_pool": false,
+      "property.on_environmental_register": false,
+      "listing.has_inspection_or_appointment": true
+    },
+    "expectOutcome": "fail_blocking",
+    "expectRules": { "QLD-AGT-001": "fail" }
+  },
+  {
+    "name": "unit with pool missing pool certificate is blocked with a reason",
+    "asOf": "2026-10-28",
+    "facts": {
+      "listing.type": "sale",
+      "property.state": "QLD",
+      "agent.listing_rights": true,
+      "disclosure.exemption": "none",
+      "disclosure.form2_ready": true,
+      "disclosure.title_search_ready": true,
+      "property.community_titles_lot": true,
+      "disclosure.body_corporate_docs_ready": true,
+      "property.has_regulated_pool": true,
+      "disclosure.pool_certificate_ready": false,
+      "property.on_environmental_register": false,
+      "listing.has_inspection_or_appointment": true
+    },
+    "expectOutcome": "fail_blocking",
+    "expectRules": { "QLD-SD-003": "pass", "QLD-SD-004": "fail" }
+  },
+  {
+    "name": "missing Form 2 answer is incomplete, not passed",
+    "asOf": "2026-10-28",
+    "facts": {
+      "listing.type": "sale",
+      "property.state": "QLD",
+      "agent.listing_rights": true,
+      "disclosure.exemption": "none",
+      "disclosure.title_search_ready": true,
+      "property.community_titles_lot": false,
+      "property.has_regulated_pool": false,
+      "property.on_environmental_register": false,
+      "listing.has_inspection_or_appointment": true
+    },
+    "expectOutcome": "incomplete",
+    "expectRules": { "QLD-SD-001": "unknown" }
+  },
+  {
+    "name": "rental listing skips seller disclosure",
+    "asOf": "2026-10-28",
+    "facts": {
+      "listing.type": "rent",
+      "property.state": "QLD",
+      "agent.listing_rights": true,
+      "listing.has_inspection_or_appointment": false
+    },
+    "expectOutcome": "pass_with_advisories",
+    "expectRules": { "QLD-SD-001": "not_applicable", "QLD-SD-002": "not_applicable", "QLD-SD-006": "not_applicable", "QLD-UX-001": "fail" }
+  },
+  {
+    "name": "claimed exemption passes with an advisory for review",
+    "asOf": "2026-10-28",
+    "facts": {
+      "listing.type": "sale",
+      "property.state": "QLD",
+      "agent.listing_rights": true,
+      "disclosure.exemption": "proposed_lot",
+      "listing.has_inspection_or_appointment": true
+    },
+    "expectOutcome": "pass_with_advisories",
+    "expectRules": { "QLD-SD-001": "not_applicable", "QLD-SD-006": "fail" }
+  }
+]

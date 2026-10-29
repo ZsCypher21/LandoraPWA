@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #ecf8f3;
+  --color-brand-100: #d2efe3;
+  --color-brand-200: #a6dfc8;
+  --color-brand-300: #6fcaa6;
+  --color-brand-500: #16a37b;
+  --color-brand-600: #0e8a67;
+  --color-brand-700: #0b6f54;
+  --color-brand-800: #0a5944;
+  --color-brand-900: #083f31;
+  --color-ink: #0f1a17;
+  --color-muted: #4d5955;
+  --color-line: #d9e2de;
+  --color-surface: #ffffff;
+  --color-canvas: #eef3f0;
+  /* Warm "sunshine" accent: highlights only (open homes, eyebrows, decoration), never for status. */
+  --color-sun-50: #fff4e0;
+  --color-sun-100: #ffe6b8;
+  --color-sun-400: #f6b13d;
+  --color-sun-800: #8a4b00;
+  --color-warn-50: #fff7e8;
+  --color-warn-700: #8a5600;
+  --color-bad-50: #fdeeee;
+  --color-bad-700: #a32020;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --shadow-card: 0 1px 2px rgb(15 26 23 / 0.06), 0 4px 16px rgb(15 26 23 / 0.06);
+  --shadow-lift: 0 2px 4px rgb(15 26 23 / 0.05), 0 12px 32px rgb(15 26 23 / 0.1);
+}
+
+/* Shared building blocks so screens stay consistent. */
+@utility card {
+  border-radius: 1rem;
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+@utility btn {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background-color 150ms, border-color 150ms, color 150ms, box-shadow 150ms;
+}
+
+@utility btn-primary {
+  background: var(--color-brand-600);
+  color: #fff;
+  &:hover {
+    background: var(--color-brand-700);
+  }
+  &:disabled {
+    opacity: 0.6;
+  }
+}
+
+@utility btn-secondary {
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  &:hover {
+    border-color: var(--color-brand-600);
+    color: var(--color-brand-700);
+  }
+}
+
+@utility field {
+  min-height: 2.75rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  padding: 0 0.875rem;
+  &:focus {
+    border-color: var(--color-brand-600);
+    outline: none;
+    box-shadow: 0 0 0 3px rgb(14 138 103 / 0.15);
+  }
+}
+
+@utility eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-brand-700);
+  &::before {
+    content: "";
+    width: 1.25rem;
+    height: 3px;
+    border-radius: 9999px;
+    background: var(--color-sun-400);
+  }
+}
+
+@layer base {
+  html {
+    color: var(--color-ink);
+    background: var(--color-canvas);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-brand-600);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Phone filter sheet slides up from the tab bar. */
+@keyframes sheet-up {
+  from {
+    transform: translateY(16px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "version": "0.1.0",
+  "status": "Draft for Product Owner review",
+  "asOf": "2026-10-28",
+  "source": "V11 §12.3 requirements, §12.13 sequencing, §12.15 acceptance examples",
+  "epics": [
+    {
+      "id": "E01", "title": "Identity and roles", "workstream": "WS4 Core Platform/API", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-ACC-001", "priority": "P0", "story": "As a buyer or agent, I can create an account, sign in and out, and recover access so my data persists across devices.",
+          "ac": [
+            "Given a new email, when I register and enter the emailed code within 15 minutes, then my account is created and I am signed in.",
+            "Given I forgot my password or lost my device, when I request recovery, then I receive a single-use link that expires in 30 minutes and does not reveal whether the email exists.",
+            "Given 5 failed sign-ins in 15 minutes, then further attempts are throttled and the event is logged.",
+            "Given I saved homes on this device before signing in, when I sign in, then they merge into my account without duplicates."
+          ], "done": "Prototype stand-in only: a \"Viewing as\" role switcher (ADR 0011). Guests are asked to sign in before saving, sharing or planning inspections. No real accounts, recovery or throttling yet." },
+        { "id": "FR-ACC-002", "priority": "P0", "story": "As the platform, I enforce role-based permissions for buyer, agent, agency admin, moderator and platform admin.",
+          "ac": [
+            "Every API route declares the roles allowed; a route without a declaration fails CI.",
+            "A buyer token calling any agent or admin endpoint receives 403 and the attempt is logged.",
+            "An agent can only act on listings belonging to their verified agency.",
+            "Role changes are made only by a platform admin, require a reason and are audit-logged (FR-ADM-002)."
+          ], "done": "Prototype: role table in apps/web/lib/roles.ts enforced on pages and server actions; agent scope checks; refused actions logged; role change needs platform admin and reason. Tests in lib/roles.test.ts." }
+      ]
+    },
+    {
+      "id": "E02", "title": "Search", "workstream": "WS2 Consumer PWA / WS6 AI Concierge", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-SRCH-001", "priority": "P0", "story": "As a buyer, I can search pilot listings with natural language or structured filters.",
+          "ac": [
+            "Given any combination of suburb, type, price, bedrooms, bathrooms, parking, land size, features and open-home day, results satisfy every mandatory constraint (verified by property-based tests).",
+            "Results are paginated, sortable by relevance, price and newest, and the URL captures the full query so it can be shared and reloaded.",
+            "p95 search response under the target set in NFR-PERF-001 at the pilot load in docs/data/pilot-sizing.md."
+          ], "done": "Prototype: rule-based NL parser and filters on synthetic data." },
+        { "id": "FR-SRCH-002", "priority": "P0", "story": "As a buyer, I see how my words were interpreted as editable criteria before I trust the results.",
+          "ac": [
+            "Every criterion applied appears as a chip and in the editable Criteria panel.",
+            "Every assumption (e.g. '3 bed' read as 'at least 3') is listed in plain words.",
+            "Requests the platform cannot judge (investment quality, school quality, safety) are named as unsupported and never converted into hidden filters.",
+            "Editing any criterion re-runs the search without re-interpreting the original text."
+          ], "done": "Prototype." },
+        { "id": "FR-SRCH-003", "priority": "P0", "story": "As a buyer, I get honest help when there are zero results, ambiguity, missing data or a service failure.",
+          "ac": [
+            "Zero results shows a clear empty state with up to 3 single-change refinements, each showing how many homes it would return.",
+            "Ambiguous input (e.g. 'under 900') asks one clarifying question and shows the assumption used meanwhile.",
+            "Listings with hidden prices are excluded from price-filtered results and the count excluded is stated.",
+            "If the AI provider fails or times out (threshold in ADR 0006), search falls back to structured filters with a visible notice and a concierge_failure event."
+          ], "done": "Prototype covers zero results, ambiguity and hidden prices; AI fallback not yet applicable." }
+      ]
+    },
+    {
+      "id": "E03", "title": "Listing detail", "workstream": "WS2 Consumer PWA / WS5 Data", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-LST-001", "priority": "P0", "story": "As a buyer, I see current listing data, media, agent/agency, inspections and status from the canonical model.",
+          "ac": [
+            "Every field shown maps to a canonical schema field and shows its source and last-updated time.",
+            "Withdrawn, sold or unpublished listings return a clear 'no longer available' page (HTTP 404/410), never stale data.",
+            "Listing pages are server-rendered with canonical URL, metadata and structured data (NFR-SEO-001)."
+          ], "done": "Prototype (synthetic)." },
+        { "id": "FR-LST-002", "priority": "P0", "story": "As a buyer, I see licensed enrichment (sales history, estimates, suburb stats) with attribution.",
+          "ac": [
+            "Enrichment is visually separated from agent-supplied data and names its provider and effective date.",
+            "Until a data licence exists, placeholder figures carry a 'Placeholder, not an estimate' label and cannot be shown in production (feature flag).",
+            "Enrichment never overwrites current listing fields; conflicts are flagged (V11 §12.7)."
+          ], "done": "Prototype with labelled placeholders." },
+        { "id": "FR-LST-003", "priority": "P0", "story": "As a buyer, I see the listing's compliance-readiness status.",
+          "ac": [
+            "The disclosure panel lists each rule outcome from the active pack with its version.",
+            "Wording confirms readiness of documents, never their content, and states it is not legal advice."
+          ], "done": "Prototype." }
+      ]
+    },
+    {
+      "id": "E04", "title": "Save, share and collections", "workstream": "WS2 Consumer PWA", "release": "MVP-1",
+      "stories": [
+        { "id": "FR-SAVE-001", "priority": "P1", "story": "As a signed-in buyer, I can save listings and organise them into collections.",
+          "ac": [
+            "Save/unsave is one tap from results and detail, optimistic, and rolls back with a message on failure.",
+            "I can create, rename and delete collections and move listings between them.",
+            "A saved listing that is withdrawn stays in the collection marked 'no longer available'."
+          ], "done": "Prototype: single shortlist on device." },
+        { "id": "FR-SHARE-001", "priority": "P1", "story": "As a buyer, I can share a stable link and invite collaborators to a collection.",
+          "ac": [
+            "Sharing a listing uses the native share sheet, falling back to copy-link.",
+            "Collection invites grant view or edit access, can be revoked, and expire after 14 days if unaccepted.",
+            "A revoked or unauthorised user opening a collection link sees an access message, not the contents."
+          ], "done": "Prototype: listing share only." }
+      ]
+    },
+    {
+      "id": "E05", "title": "Inspection timeline", "workstream": "WS2 Consumer PWA", "release": "MVP-1",
+      "stories": [
+        { "id": "FR-INSP-001", "priority": "P1", "story": "As a buyer, I can add published open-home times to my inspection timeline.", "ac": [
+            "Only inspection windows from the listing feed can be added; changes in the feed update the timeline and notify me.",
+            "Listings with no upcoming opens show an 'arrange a private inspection' prompt."
+          ], "done": "Prototype." },
+        { "id": "FR-INSP-002", "priority": "P1", "story": "As a buyer, I get a feasible sequence with travel buffers and clear conflict warnings.", "ac": [
+            "Given saved listings with valid windows, the plan orders visits to fit the most homes with the least driving, including parking and visit time.",
+            "Homes that cannot fit are listed separately with the reason (window closes before arrival, overlap).",
+            "Drive times state how they were estimated."
+          ], "done": "Prototype (straight-line estimate)." },
+        { "id": "FR-INSP-003", "priority": "P1", "story": "As a buyer, I can reorder visits and record notes and ratings after each inspection.", "ac": [
+            "Manual reordering recalculates times and conflicts immediately; I can return to the suggested order.",
+            "Notes (up to 2,000 characters) and a 1–5 rating save per listing and are private to me unless shared."
+          ], "done": "Prototype." }
+      ]
+    },
+    {
+      "id": "E06", "title": "AI concierge and orchestration", "workstream": "WS6 AI Concierge", "release": "MVP-1",
+      "stories": [
+        { "id": "FR-AI-001", "priority": "P0", "story": "As a buyer, concierge answers use approved sources and cite material facts.", "ac": [
+            "Every material factual claim in an answer links to a canonical field, rule result or approved document.",
+            "Benchmark citation correctness meets the threshold approved by PO and AI Lead (docs/ai/benchmark.md)."
+          ], "done": "None." },
+        { "id": "FR-AI-002", "priority": "P0", "story": "As a buyer, the concierge never invents attributes, prices, zoning, eligibility or guaranteed outcomes.", "ac": [
+            "When data is missing the answer says so and offers to ask the agent.",
+            "Adversarial benchmark cases (docs/ai/benchmark-cases.json, category 'adversarial') pass at 100%.",
+            "Answers never contain personalised financial advice, return predictions or legal conclusions."
+          ], "done": "Prototype parser names unsupported asks." },
+        { "id": "FR-AI-003", "priority": "P0", "story": "As the platform, AI calls go through a router with model routing, limits, caching and cost circuit-breakers.", "ac": [
+            "Model, prompt version and cost are logged per call.",
+            "Per-user and global daily spend limits are configurable; when hit, the concierge degrades to structured search.",
+            "Swapping the primary model is a configuration change validated by re-running the benchmark."
+          ], "done": "ADR 0006 only." },
+        { "id": "FR-AI-004", "priority": "P1", "story": "With consent, the concierge remembers approved preferences across sessions.", "ac": [
+            "Memory is off until I opt in, and I can view and delete what is remembered.",
+            "Remembered items are limited to the approved list in the data inventory."
+          ], "done": "None." }
+      ]
+    },
+    {
+      "id": "E07", "title": "First home buyer guidance", "workstream": "WS7 Rules & Compliance", "release": "MVP-1",
+      "stories": [
+        { "id": "FR-FHB-001", "priority": "P1", "story": "As a first home buyer, eligibility is decided by deterministic rules before any AI explanation.", "ac": [
+            "Results come only from the active versioned rule pack; the LLM may rephrase but not change an outcome.",
+            "Unknown answers produce 'need more information', never a guess.",
+            "Answers are not stored unless I opt in to saving them (V11 §12.5)."
+          ], "done": "Prototype." },
+        { "id": "FR-FHB-002", "priority": "P1", "story": "As a first home buyer, each result shows its source, version, effective date and assumptions.", "ac": [
+            "Each scheme result names the official source and the date it was checked.",
+            "The rules version, status (draft/active) and effective date appear with the results."
+          ], "done": "Prototype." }
+      ]
+    },
+    {
+      "id": "E08", "title": "Agent onboarding and console", "workstream": "WS3 Agent Portal", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-AGT-001", "priority": "P0", "story": "As the platform, listing rights require licence verification or an approved exception.", "ac": [
+            "An unverified agent cannot publish; the Publish control is disabled with the reason.",
+            "An exception requires a platform admin, a reason and an expiry date, and is audit-logged.",
+            "A licence that lapses unpublishes affected listings within 24 hours."
+          ], "done": "Rule QLD-AGT-001 in pack. Prototype: Publish disabled with reason; platform admin approves an exception with reason and expiry (audit-logged)." },
+        { "id": "FR-AGT-002", "priority": "P0", "story": "As an agent, my console shows onboarding, feed status, listings, exceptions and publication status.", "ac": [
+            "Feed status shows last run, records received/rejected and the reason per rejection.",
+            "Exceptions are grouped blocking, incomplete and warning, each with a fix action."
+          ], "done": "Prototype /agent: licence status, feed runs with rejection reasons, listings grouped by gate result with the rule pack's fix text." },
+        { "id": "FR-AGT-003", "priority": "P0", "story": "As an authorised agent, I can preview, resolve exceptions, publish, unpublish and update supported states.", "ac": [
+            "Preview renders exactly the buyer view.",
+            "Corrected data re-runs the publication gate and publishes automatically when all mandatory checks pass.",
+            "Unpublish takes effect in search within 60 seconds."
+          ], "done": "Prototype: buyer-view preview, publish/unpublish (gate re-checked on the server; unpublish removes it from search). Auto-republish on corrected data not built." },
+        { "id": "FR-AGT-004", "priority": "P1", "story": "As an agent, I can answer listing Q&A and receive buyer details only after consent.", "ac": [
+            "Buyer identity is hidden in Q&A unless the buyer chose to share it.",
+            "A lead appears only with a recorded consent (who, what, when, purpose)."
+          ], "done": "None." }
+      ]
+    },
+    {
+      "id": "E09", "title": "Listing feed ingestion", "workstream": "WS5 Property & Listing Data", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-FEED-001", "priority": "P0", "story": "As the platform, I ingest REAXML and map it to the canonical model.", "ac": [
+            "All fields in docs/data/reaxml-mapping.md map with tests; unmapped elements are logged, not dropped silently.",
+            "Times are converted with the listing's state time zone."
+          ], "done": "Adapter with 12 tests on sample feeds." },
+        { "id": "FR-FEED-002", "priority": "P0", "story": "As an operator, ingestion validates, updates idempotently, logs errors and can reprocess.", "ac": [
+            "Replaying the same (agency, uniqueID, modTime) changes nothing.",
+            "Invalid records are rejected with a line-level reason and do not block valid records in the same file.",
+            "An admin can reprocess a failed file; the result is audit-logged."
+          ], "done": "Adapter idempotency and rejection reasons tested." }
+      ]
+    },
+    {
+      "id": "E10", "title": "Publication compliance", "workstream": "WS7 Rules & Compliance", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-CMP-001", "priority": "P0", "story": "As the platform, a configurable jurisdiction rules engine evaluates mandatory publication requirements.", "ac": [
+            "Rules live in versioned JSON packs, not code; a new pack version needs no deployment.",
+            "Missing facts evaluate to unknown, never pass."
+          ], "done": "Engine + QLD pack v0.1.0 (draft)." },
+        { "id": "FR-CMP-002", "priority": "P0", "story": "As the platform, I block publication when mandatory rules fail and give an actionable reason.", "ac": [
+            "A listing failing any blocking rule is never visible to buyers.",
+            "Each failure names the rule, what is missing and how to fix it."
+          ], "done": "Prototype gate (QLD Form 2 decision 2026-10-28)." },
+        { "id": "FR-CMP-003", "priority": "P0", "story": "As a compliance owner, rule-pack changes are versioned, audited and regression-tested.", "ac": [
+            "Every pack has fixtures; CI fails if any fixture outcome changes without a version bump.",
+            "Activating a pack requires a second approver and records who, when and why."
+          ], "done": "Fixtures + tests; activation workflow not built." }
+      ]
+    },
+    {
+      "id": "E11", "title": "Admin and moderation", "workstream": "WS9 Admin & Moderation", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-ADM-001", "priority": "P0", "story": "As a platform admin, I manage users, agents, agencies, listings, verification exceptions, feed failures and moderation.", "ac": [
+            "Each queue shows count, oldest item age and SLA breach.",
+            "Admin access requires MFA (NFR-SEC-003)."
+          ], "done": "Prototype /admin: queues with counts, users and roles, agencies, verification exceptions, feed failures, moderation queue (empty: Q&A is P1). No MFA or SLA targets yet." },
+        { "id": "FR-ADM-002", "priority": "P0", "story": "As an auditor, privileged actions affecting publication, compliance, identity or moderation are auditable.", "ac": [
+            "Audit records are append-only with actor, action, target, before/after, reason and time.",
+            "Audit records are retained for 7 years (to confirm in PIA) and exportable."
+          ], "done": "audit_log table in migration 0001. Prototype: read-only in-memory audit log of publish, role and verification actions and refused attempts. No export or retention yet." }
+      ]
+    },
+    {
+      "id": "E12", "title": "Analytics", "workstream": "WS10 Analytics", "release": "MVP-0",
+      "stories": [
+        { "id": "FR-ANL-001", "priority": "P0", "story": "As the PO, I can see weekly active buyers per pilot suburb and inspection-timeline depth from day one.", "ac": [
+            "All 33 §12.8 events validate against the catalogue; invalid events are rejected and counted.",
+            "Both launch KPIs compute from SQL views with no manual steps."
+          ], "done": "Catalogue, validator and KPI views (migration 0002)." }
+      ]
+    },
+    {
+      "id": "E13", "title": "Network foundations", "workstream": "WS8 Social Foundations", "release": "MVP-2",
+      "stories": [
+        { "id": "FR-QA-001", "priority": "P1", "story": "As a buyer, I can ask listing-specific questions, subject to moderation.", "ac": [
+            "Questions are moderated before public display; the agent's answer is labelled as from the agent.",
+            "Reported content is hidden pending review."
+          ], "done": "None." },
+        { "id": "FR-SOC-001", "priority": "P1", "story": "As a buyer, I have a profile and can follow properties and suburbs and get notifications.", "ac": [
+            "Following a property notifies me of price, status and inspection changes.",
+            "Notification preferences are per channel and default to off for marketing."
+          ], "done": "None." },
+        { "id": "FR-HUB-001", "priority": "P1", "story": "As a buyer, Suburb Hub v1 shows approved seeded content without open commenting.", "ac": [
+            "Content carries author and provenance; no user comments in v1."
+          ], "done": "None." },
+        { "id": "FR-TRND-001", "priority": "P1", "story": "As a buyer, Trending v1 is derived from defined events and excludes invalid or abusive activity.", "ac": [
+            "Trending uses listing_viewed/saved/shared with per-user caps and bot filtering."
+          ], "done": "None." },
+        { "id": "FR-LEAD-001", "priority": "P1", "story": "As the platform, intent signals may be computed internally but buyer details go to agents only with consent.", "ac": [
+            "No intent threshold triggers disclosure; lead_sent requires a prior lead_consent_granted."
+          ], "done": "Events defined." },
+        { "id": "FR-PIN-001", "priority": "P2", "story": "As a buyer, I can pin approved listing images and features to boards with attribution.", "ac": [
+            "Pins keep listing attribution and disappear if the listing media is withdrawn."
+          ], "done": "None. First to defer (V11 §12.13)." }
+      ]
+    }
+  ]
+}
